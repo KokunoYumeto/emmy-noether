@@ -1,6 +1,6 @@
 {
  "schema": "noether-translations-catalogue/1.0.0",
- "generated_utc": "2026-10-26T01:19:55+00:00",
+ "generated_utc": "2026-10-26T21:00:35+00:00",
  "corpus": {
   "author": "Emmy Noether (1882-1935)",
   "contents": "Papers 1-43; the lectures \"Algebra der hyperkomplexen Größen\" (winter semester 1929/30) written up by M. Deuring; H. Kapferer's paper with its supplement written jointly with E. Noether; bibliography and the lists of short communications, book reviews and books produced with Emmy Noether's participation.",
@@ -33,10 +33,7 @@
    "role": "source-text",
    "status": "complete",
    "status_label": "Source text",
-   "edition": "NOETH-DE-ED-0028 (Zenodo version \"2026-09-05 r40\")",
-   "record": "https://zenodo.org/records/22342039",
-   "version_doi": "10.5281/zenodo.22342039",
-   "concept_doi": "10.5281/zenodo.20412587",
+   "edition": "German text of 26 October 2026: NOETH-DE-ED-0040 compared page by page with the printed originals",
    "coverage": {
     "papers": "1-43",
     "lectures_1929_30": true,
@@ -46,35 +43,82 @@
    },
    "readers": [
     {
-     "name": "10-de.pdf",
-     "url": "https://zenodo.org/records/22342039/files/10-de.pdf",
-     "bytes": 2656486,
-     "pages": 466,
-     "sha256": "5ce2519f51895502b7c00e6d3b8c41fb944ce19c32e669ecf98a5fb384c24010",
-     "md5": "6ad0df3458f5a41ce829d59d32ee26c5",
-     "layer": "working text",
-     "format": "PDF"
+     "name": "01-noether-de-base.pdf",
+     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-de-2026-10-26/01-noether-de-base.pdf",
+     "bytes": 2676162,
+     "sha256": "460a80ca75bf75f49ef4c9b0615fc2e4dff578a94f247b2637916433290d90e8",
+     "layer": "text as printed",
+     "format": "PDF",
+     "pages": 458
+    },
+    {
+     "name": "04-noether-de-emendations.pdf",
+     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-de-2026-10-26/04-noether-de-emendations.pdf",
+     "bytes": 2676034,
+     "sha256": "06c74061ab522406778bca3fbe4759861ac0e08749dd61d4ad6f8da7ed3d02a6",
+     "layer": "text with the misprints corrected",
+     "format": "PDF",
+     "pages": 458
     }
    ],
    "sources": [
     {
-     "name": "20-de.tex",
-     "url": "https://zenodo.org/records/22342039/files/20-de.tex",
-     "bytes": 2154249,
-     "sha256": "bea85848e2bac2af5da642fe0f7b01d4faa251c2476a0b730f829cdb82820215",
-     "md5": "e54c3568386a7e246630eb21f4366c20",
-     "layer": "working text",
+     "name": "02-noether-de-base.tex",
+     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-de-2026-10-26/02-noether-de-base.tex",
+     "bytes": 2180645,
+     "sha256": "d7a92b48ed2fe0abea7a151b7d138b7341b7ae99df46aab0e9c5866d09baaa26",
+     "layer": "text as printed",
      "format": "TEX"
+    },
+    {
+     "name": "05-noether-de-emendations.tex",
+     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-de-2026-10-26/05-noether-de-emendations.tex",
+     "bytes": 2181059,
+     "sha256": "9a1e8dfec6d1c84dca5d202a36114bf9b9c931d4bab9fe7df6d2f80b371567b1",
+     "layer": "text with the misprints corrected",
+     "format": "TEX"
+    },
+    {
+     "name": "03-noether-de-sources.zip",
+     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-de-2026-10-26/03-noether-de-sources.zip",
+     "bytes": 1165777,
+     "sha256": "075944171ce45bc37c1d36dee089bc84c3d91504fe111b48ae50b42a4a93aa09",
+     "layer": "both texts",
+     "format": "ZIP"
     }
    ],
    "working_archive": "https://github.com/KokunoYumeto/modern-latex-manuscripts/tree/main/sources/noether",
-   "authorship": "AI-transcribed LaTeX text of the original printings, with editorial corrections recorded in German editions ED0001-ED0028; the Zenodo record lists \"AI typesetting & translation\" and \"TTP\" as contributors and describes the text as a working source restoration, not an official or peer-reviewed critical edition.",
-   "rights": "Zenodo licence field: CC0 1.0. Record text: \"Rights remain artifact-specific; underlying works and third-party evidence are not relicensed.\"",
+   "authorship": "AI-transcribed LaTeX text of the original printings (German editions NOETH-DE-ED-0001 to ED-0040). Every page compared with the printed originals and corrected: Claude Opus 5.5 (Anthropic), 26 October 2026.",
+   "rights": "Emmy Noether's writings are in the public domain. To the extent the publisher holds any rights in the AI-produced transcription, corrections and typesetting, they are dedicated to the public domain under CC0 1.0. The lectures written up by M. Deuring, the work of H. Kapferer and the contributions of the named coauthors keep their own legal status.",
    "limitations": [
-    "Hosted on Zenodo only; earlier German working sources are kept in the modern-latex-manuscripts repository (sources/noether).",
-    "The PDF has no bookmarks (outline)."
+    "The PDFs have no bookmarks (outline)."
    ],
-   "rights_summary": "Zenodo licence field CC0 1.0; rights artifact-specific"
+   "rights_summary": "Emmy Noether's writings in the public domain; CC0 1.0 for the AI-produced transcription, corrections and typesetting; the lectures written up by M. Deuring, H. Kapferer's work and the coauthors' contributions keep their own status",
+   "repository": "https://github.com/KokunoYumeto/modern-latex-manuscripts",
+   "edition_home": "https://github.com/KokunoYumeto/modern-latex-manuscripts/tree/main/editions/noether/2026-10-26/de",
+   "release": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/noether-de-2026-10-26",
+   "release_tag": "noether-de-2026-10-26",
+   "edition_date": "2026-10-26",
+   "pdf_outline": false,
+   "records": [
+    {
+     "name": "08-noether-de-corrections.json",
+     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-de-2026-10-26/08-noether-de-corrections.json",
+     "bytes": 3066774,
+     "sha256": "3f52c4b252e37cfdfc7e5e65dbec0cf1fcea6fb96d7e0954668e8c5ec185f59f",
+     "layer": "changes made in the comparison with the printed pages",
+     "format": "JSON"
+    }
+   ],
+   "checksums": {
+    "name": "07-noether-de-SHA256SUMS.txt",
+    "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-de-2026-10-26/07-noether-de-SHA256SUMS.txt",
+    "bytes": 559,
+    "sha256": "d4848b2823f2c92ae8a2df01d46624c3a6c182a692e2e40ea5bfcba64c64e674"
+   },
+   "earlier_editions": [
+    "https://zenodo.org/records/22342039"
+   ]
   },
   {
    "id": "noether-en",
@@ -89,8 +133,8 @@
    "status_label": "Complete",
    "repository": "https://github.com/KokunoYumeto/emmy-noether-en",
    "edition_home": "https://github.com/KokunoYumeto/emmy-noether-en",
-   "release": "https://github.com/KokunoYumeto/emmy-noether-en/releases/tag/noether-en-2026-10-26",
-   "release_tag": "noether-en-2026-10-26",
+   "release": "https://github.com/KokunoYumeto/emmy-noether-en/releases/tag/noether-en-2026-10-26-r2",
+   "release_tag": "noether-en-2026-10-26-r2",
    "coverage": {
     "papers": "1-43",
     "lectures_1929_30": true,
@@ -102,18 +146,18 @@
    "readers": [
     {
      "name": "01-noether-en-base.pdf",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-26/01-noether-en-base.pdf",
-     "bytes": 2643334,
-     "sha256": "3fedc58f0443eacfe6d86044e55bfde3d34529884f09c04ff977ad1a586f178d",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-26-r2/01-noether-en-base.pdf",
+     "bytes": 2655121,
+     "sha256": "c690b9e83c435fc6144c428d63535cd227148028abd8582714abc9857aef5fc4",
      "layer": "base text",
      "format": "PDF",
      "pages": 463
     },
     {
      "name": "04-noether-en-emendations.pdf",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-26/04-noether-en-emendations.pdf",
-     "bytes": 2654143,
-     "sha256": "cb52152971a5b0daf9e86d534ffbb1a295128e124e0119e5d9cd768e46a171c5",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-26-r2/04-noether-en-emendations.pdf",
+     "bytes": 2665001,
+     "sha256": "68a46b031d0446d1d6c40539749dbcbd3e2438faaea170d294dc6b9c54568c2e",
      "layer": "text with emendations",
      "format": "PDF",
      "pages": 468
@@ -122,33 +166,33 @@
    "sources": [
     {
      "name": "02-noether-en-base.tex",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-26/02-noether-en-base.tex",
-     "bytes": 2854077,
-     "sha256": "8952a187f405ebf59d3890880406446032613f0f431ba12aa4860ea03fb767f6",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-26-r2/02-noether-en-base.tex",
+     "bytes": 2875271,
+     "sha256": "773ec9e67651b5d5295f08823e1ae9cb7173ca2e395429dfa1f882c959c9acc8",
      "layer": "base text",
      "format": "TEX"
     },
     {
      "name": "05-noether-en-emendations.tex",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-26/05-noether-en-emendations.tex",
-     "bytes": 2859627,
-     "sha256": "6ce4dae6eb757e2a47ef2acc077a20a168d23376855aa7ea27387402fad8559e",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-26-r2/05-noether-en-emendations.tex",
+     "bytes": 2881015,
+     "sha256": "ac17f7d39a4e50fbcef389b7842ef8a6eec9a48be3bdfd9cf0f6e95e2ad728a6",
      "layer": "text with emendations",
      "format": "TEX"
     },
     {
      "name": "03-noether-en-base-sources.zip",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-26/03-noether-en-base-sources.zip",
-     "bytes": 1435488,
-     "sha256": "2a931e82b7305cd354d12d84c0cfebe649e748305cdbe805aea20a1b291aba9c",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-26-r2/03-noether-en-base-sources.zip",
+     "bytes": 1444676,
+     "sha256": "84b6c4ff1de66c78cf471fe0b5d3a4a6cd1dc221c11b02361af49383382c033b",
      "layer": "base text",
      "format": "ZIP"
     },
     {
      "name": "06-noether-en-emendations-sources.zip",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-26/06-noether-en-emendations-sources.zip",
-     "bytes": 1439425,
-     "sha256": "a79000a88cdeb74aca1ead3004c6ae1757aa0db1944f43b9dd816d1d5caba8b8",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-26-r2/06-noether-en-emendations-sources.zip",
+     "bytes": 1448140,
+     "sha256": "aa21e560c2ed8569f2303df87392aa602a1bd4fbc45ec20c7ed01178b5f6f8aa",
      "layer": "text with emendations",
      "format": "ZIP"
     }
@@ -156,14 +200,15 @@
    "programs": [],
    "checksums": {
     "name": "07-noether-en-SHA256SUMS.txt",
-    "url": "https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-26/07-noether-en-SHA256SUMS.txt",
+    "url": "https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-26-r2/07-noether-en-SHA256SUMS.txt",
     "bytes": 577,
-    "sha256": "7322ec4dc959a3ab2cacc188355bce02f586149d43fc9716b5a2ab56c54b1d9e"
+    "sha256": "76ebfd9d19f54345b194ea11993b6629c3d3a9a1a315e71bea2a1e6384961456"
    },
    "translation_basis": "The README names German edition NOETH-DE-ED-0021 (doi:10.5281/zenodo.22182296) as the source of the inherited English text.",
    "authorship": "AI-translated. Translation: OpenAI Codex (model not recorded). Corrections and typesetting: OpenAI Codex (GPT-6 Astra, Ultra), 23–24 October 2026; Claude Opus 5.5 (Anthropic), 26 October 2026.",
-   "rights": "Repository LICENSE: CC0 1.0 dedication by the Manuscript Typesetting Project, to the extent rights exist, for the English translation, typesetting, metadata, manifests, tools and project-created evidence; Emmy Noether's original works and third-party material are not relicensed. README: rights remain with the respective rights holders; free non-commercial, educational distribution rests on the publisher's presumption of no objection, not on established permission; no new licence or public-domain dedication is granted; objections through the repository's issues.",
+   "rights": "README and release notes: Emmy Noether's writings are in the public domain; to the extent the publisher holds any rights in the AI-produced translation, corrections and typesetting, they are dedicated to the public domain under CC0 1.0; the lectures written up by M. Deuring, the work of H. Kapferer and the contributions of the named coauthors keep their own legal status. Repository LICENSE: CC0 1.0 for the project-created translation, typesetting, metadata, tools and evidence.",
    "earlier_editions": [
+    "https://github.com/KokunoYumeto/emmy-noether-en/releases/tag/noether-en-2026-10-26",
     "https://github.com/KokunoYumeto/emmy-noether-en/releases/tag/noether-en-2026-10-24-r2",
     "https://doi.org/10.5281/zenodo.20412587",
     "https://doi.org/10.5281/zenodo.21923145",
@@ -172,16 +217,14 @@
     "https://doi.org/10.5281/zenodo.22232932"
    ],
    "limitations": [
-    "Paper 2: in two places the text reads ĵ where the German text reads ϑ̂.",
-    "Papers 1 and 2 may lack some multiplication dots of the German text.",
-    "Paper 15, display (7): the substitution is written ξ14 = ξ13 only; the German display also substitutes ξ24 = ξ23, while the German text before it names only ξ14 = ξ13."
+    "Formulas: compared with the German source text, which follows Noether's printed pages, and brought into line with it where the comparison could be made automatically. Some formulas still follow the earlier German transcription, for example in the extent of a hat or subscript, in letter forms such as ϱ and ϰ, or in a multiplication dot; where the two differ, the German source text has the printed reading."
    ],
    "edition_date": "2026-10-26",
    "production": {
     "translation": "OpenAI Codex (model not recorded)",
     "corrections_and_typesetting": "OpenAI Codex (GPT-6 Astra, Ultra), 23–24 October 2026; Claude Opus 5.5 (Anthropic), 26 October 2026"
    },
-   "rights_summary": "Repository LICENSE: CC0 1.0 for project-created material; README: rights with their holders; distributed on a presumption of no objection; no new licence"
+   "rights_summary": "Emmy Noether's writings in the public domain; CC0 1.0 for the AI-produced translation, corrections and typesetting; the lectures written up by M. Deuring, H. Kapferer's work and the coauthors' contributions keep their own status"
   },
   {
    "id": "noether-fr",
@@ -196,8 +239,8 @@
    "status_label": "Complete",
    "repository": "https://github.com/KokunoYumeto/emmy-noether-fr",
    "edition_home": "https://github.com/KokunoYumeto/emmy-noether-fr",
-   "release": "https://github.com/KokunoYumeto/emmy-noether-fr/releases/tag/noether-fr-2026-10-26",
-   "release_tag": "noether-fr-2026-10-26",
+   "release": "https://github.com/KokunoYumeto/emmy-noether-fr/releases/tag/noether-fr-2026-10-26-r2",
+   "release_tag": "noether-fr-2026-10-26-r2",
    "coverage": {
     "papers": "1-43",
     "lectures_1929_30": true,
@@ -209,18 +252,18 @@
    "readers": [
     {
      "name": "01-noether-fr-texte-base.pdf",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-26/01-noether-fr-texte-base.pdf",
-     "bytes": 4329139,
-     "sha256": "5d68b2b57280aea84f7b0ba3bd4f91b711a656d12e4c9a6f26e709f24c3cc7e7",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-26-r2/01-noether-fr-texte-base.pdf",
+     "bytes": 4360517,
+     "sha256": "443fe48f76b5d902f6eead0479a13298cd1f8098bd91702d3390c57d1f15eefe",
      "layer": "base text",
      "format": "PDF",
      "pages": 496
     },
     {
      "name": "04-noether-fr-emendations.pdf",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-26/04-noether-fr-emendations.pdf",
-     "bytes": 4349768,
-     "sha256": "23a32e22dfc9852e3b1f1eab1ce961e1a64802ddfc65a3a54d6f7ef9973d567a",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-26-r2/04-noether-fr-emendations.pdf",
+     "bytes": 4381333,
+     "sha256": "d6278813991bcb7af93d3028941bcb46a327d1d1847d842cea246668a51501db",
      "layer": "text with emendations",
      "format": "PDF",
      "pages": 501
@@ -229,33 +272,33 @@
    "sources": [
     {
      "name": "02-noether-fr-texte-base.tex",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-26/02-noether-fr-texte-base.tex",
-     "bytes": 2269191,
-     "sha256": "91f594a77354b7d282ccaeb4fd91b35e03729d5b8c9204f108712382008774cb",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-26-r2/02-noether-fr-texte-base.tex",
+     "bytes": 2286404,
+     "sha256": "61a6c115e105dc30180ec4d818173abb22feca63d57083dbca45c62136afee62",
      "layer": "base text",
      "format": "TEX"
     },
     {
      "name": "05-noether-fr-emendations.tex",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-26/05-noether-fr-emendations.tex",
-     "bytes": 2275395,
-     "sha256": "bef7165264babffd49afb68ab03ce4d2e0e124d47e65f9654d363b78eac2c17f",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-26-r2/05-noether-fr-emendations.tex",
+     "bytes": 2292815,
+     "sha256": "b88ddf446cb1004d92552dab61391cc509f503c4505739ce2edfcc7c05f4dd3e",
      "layer": "text with emendations",
      "format": "TEX"
     },
     {
      "name": "03-noether-fr-texte-base-sources.zip",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-26/03-noether-fr-texte-base-sources.zip",
-     "bytes": 1271197,
-     "sha256": "dedc5bc6460c6f9198688884b75901e0b861ba7be8ca51754956bf601f4eaca5",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-26-r2/03-noether-fr-texte-base-sources.zip",
+     "bytes": 1277747,
+     "sha256": "8597b636cda33625be85ec3f79ec274d014911dfba608dff51342b707a629e93",
      "layer": "base text",
      "format": "ZIP"
     },
     {
      "name": "06-noether-fr-emendations-sources.zip",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-26/06-noether-fr-emendations-sources.zip",
-     "bytes": 1279585,
-     "sha256": "89de7942e165d6ee1347c240a09a9936ff2a1d1c41d81a2e4fca64d9330aeb75",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-26-r2/06-noether-fr-emendations-sources.zip",
+     "bytes": 1285781,
+     "sha256": "e8a3a094cd61191ea096904324b4fc2b7edef5a29c6f90f0ab0dc583eabed785",
      "layer": "text with emendations",
      "format": "ZIP"
     }
@@ -263,14 +306,15 @@
    "programs": [],
    "checksums": {
     "name": "07-SHA256SUMS.txt",
-    "url": "https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-26/07-SHA256SUMS.txt",
+    "url": "https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-26-r2/07-SHA256SUMS.txt",
     "bytes": 589,
-    "sha256": "ccbca8e629f018fed2a0116c5e057421ed67d8b446e6a906d2cab3fbc3ac1a6c"
+    "sha256": "bba117dc0c3939b4eede34a5924cf3d8b224c95936ea819506ee2a1daf53b335"
    },
    "translation_basis": "Source editions named in the README: French ED0014/v051 (doi:10.5281/zenodo.21921884) and German ED0014/v051 (doi:10.5281/zenodo.21908301).",
    "authorship": "AI-translated. Translation: OpenAI Codex (model not recorded). Corrections and typesetting: OpenAI Codex (GPT-6 Astra, Ultra), October 2026; Claude Opus 5.5 (Anthropic), 26 October 2026.",
-   "rights": "README and LICENSES.md: rights in the original works and protected derivative contributions remain with their holders; free non-commercial, educational distribution rests on the publisher's presumption of no objection; no new licence or public-domain dedication is granted. NOTICE_HISTORIQUE.md reproduces the source edition's historical notice: CC0 1.0 for the Manuscript Typesetting Project's own contributions (French translation, TeX typesetting, metadata, tools, editorial evidence), to the extent rights were held.",
+   "rights": "README and release notes: Emmy Noether's writings are in the public domain; to the extent the publisher holds any rights in the AI-produced translation, corrections and typesetting, they are dedicated to the public domain under CC0 1.0; the lectures written up by M. Deuring, the work of H. Kapferer and the contributions of the named coauthors keep their own legal status. NOTICE_HISTORIQUE.md reproduces the source edition's historical notice: CC0 1.0 for the project's own contributions.",
    "earlier_editions": [
+    "https://github.com/KokunoYumeto/emmy-noether-fr/releases/tag/noether-fr-2026-10-26",
     "https://github.com/KokunoYumeto/emmy-noether-fr/releases/tag/noether-fr-2026-10-24",
     "https://doi.org/10.5281/zenodo.21921884",
     "https://doi.org/10.5281/zenodo.21908301",
@@ -278,14 +322,14 @@
    ],
    "limitations": [
     "Parts of Papers 24, 30, 31 and 34 contain readings of an earlier English translation that differ from the German text.",
-    "Paper 15, display (7): the substitution is written ξ14 = ξ13 only; the German display also substitutes ξ24 = ξ23, while the German text before it names only ξ14 = ξ13."
+    "Formulas: compared with the German source text, which follows Noether's printed pages, and brought into line with it where the comparison could be made automatically. Some formulas still follow the earlier German transcription, for example in the extent of a hat or subscript, in letter forms such as ϱ and ϰ, or in a multiplication dot; where the two differ, the German source text has the printed reading."
    ],
    "edition_date": "2026-10-26",
    "production": {
     "translation": "OpenAI Codex (model not recorded)",
     "corrections_and_typesetting": "OpenAI Codex (GPT-6 Astra, Ultra), October 2026; Claude Opus 5.5 (Anthropic), 26 October 2026"
    },
-   "rights_summary": "Rights with their holders; distributed on a presumption of no objection; no new licence; the source edition's CC0 notice is reproduced with its own scope"
+   "rights_summary": "Emmy Noether's writings in the public domain; CC0 1.0 for the AI-produced translation, corrections and typesetting; the lectures written up by M. Deuring, H. Kapferer's work and the coauthors' contributions keep their own status"
   },
   {
    "id": "noether-ko",
@@ -300,8 +344,8 @@
    "status_label": "Complete",
    "repository": "https://github.com/KokunoYumeto/emmy-noether-ko",
    "edition_home": "https://github.com/KokunoYumeto/emmy-noether-ko",
-   "release": "https://github.com/KokunoYumeto/emmy-noether-ko/releases/tag/noether-ko-2026-10-26",
-   "release_tag": "noether-ko-2026-10-26",
+   "release": "https://github.com/KokunoYumeto/emmy-noether-ko/releases/tag/noether-ko-2026-10-26-r2",
+   "release_tag": "noether-ko-2026-10-26-r2",
    "coverage": {
     "papers": "1-43",
     "lectures_1929_30": true,
@@ -313,18 +357,18 @@
    "readers": [
     {
      "name": "01-noether-ko-base.pdf",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-ko/releases/download/noether-ko-2026-10-26/01-noether-ko-base.pdf",
-     "bytes": 2781847,
-     "sha256": "479f150a3d17269a34dd9bbe6b8f33bc0c5c1b36593e46a3fde1e867c10a14e9",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-ko/releases/download/noether-ko-2026-10-26-r2/01-noether-ko-base.pdf",
+     "bytes": 2786192,
+     "sha256": "1672f23a1500a4cced326a65a94ef7c8220e1657fedc8a8e4349c73aa63e4d08",
      "layer": "base text",
      "format": "PDF",
      "pages": 519
     },
     {
      "name": "04-noether-ko-emendations.pdf",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-ko/releases/download/noether-ko-2026-10-26/04-noether-ko-emendations.pdf",
-     "bytes": 2792350,
-     "sha256": "ef9cf3bbad5e07176b720e8628ec0e67024e18090f054508da3c8293feec6e74",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-ko/releases/download/noether-ko-2026-10-26-r2/04-noether-ko-emendations.pdf",
+     "bytes": 2796479,
+     "sha256": "c72d512092fbf09348480d6c4489b38d4386e25dfc42322e611ad306d1260f06",
      "layer": "text with emendations",
      "format": "PDF",
      "pages": 525
@@ -333,33 +377,33 @@
    "sources": [
     {
      "name": "02-noether-ko-base.tex",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-ko/releases/download/noether-ko-2026-10-26/02-noether-ko-base.tex",
-     "bytes": 2121062,
-     "sha256": "e3d4c79e7ce7fd3bdcb252fcdb0e01bf77176a3e3e1b18839ddd4ca00708aac5",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-ko/releases/download/noether-ko-2026-10-26-r2/02-noether-ko-base.tex",
+     "bytes": 2128734,
+     "sha256": "04f18d00e80f361586da94b60fe007e459d011f007c658d1ad5a7d5e3b37c8de",
      "layer": "base text",
      "format": "TEX"
     },
     {
      "name": "05-noether-ko-emendations.tex",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-ko/releases/download/noether-ko-2026-10-26/05-noether-ko-emendations.tex",
-     "bytes": 2127156,
-     "sha256": "cb77f0efbf3b5d9f2c7b8d5b23af17b23fe2a5e7347718afd4bde20bc86f40b3",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-ko/releases/download/noether-ko-2026-10-26-r2/05-noether-ko-emendations.tex",
+     "bytes": 2134989,
+     "sha256": "ac7f3e04e968c442b5094697709c4522c0023cdc921fa45fb78fa3f814bec587",
      "layer": "text with emendations",
      "format": "TEX"
     },
     {
      "name": "03-noether-ko-base-sources.zip",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-ko/releases/download/noether-ko-2026-10-26/03-noether-ko-base-sources.zip",
-     "bytes": 1138813,
-     "sha256": "216b81759ac9732384ca5fe01b065b924866a05a1c19933b1569b40ca9773dd9",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-ko/releases/download/noether-ko-2026-10-26-r2/03-noether-ko-base-sources.zip",
+     "bytes": 1142563,
+     "sha256": "27ddf575b4b1ddd5b5cf7be6e8a15fb4751ab09ab3f588c50405e779aae5e8dd",
      "layer": "base text",
      "format": "ZIP"
     },
     {
      "name": "06-noether-ko-emendations-sources.zip",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-ko/releases/download/noether-ko-2026-10-26/06-noether-ko-emendations-sources.zip",
-     "bytes": 1148280,
-     "sha256": "af384394b2252ff90fb1acb2a42e6361e070e8e7ecc6e14298777e1950d5ac7e",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-ko/releases/download/noether-ko-2026-10-26-r2/06-noether-ko-emendations-sources.zip",
+     "bytes": 1151895,
+     "sha256": "dd5d62471bd0a7675aa80cab1cd3817e1a3ad23c875cc88975a424f13439acef",
      "layer": "text with emendations",
      "format": "ZIP"
     }
@@ -367,14 +411,15 @@
    "programs": [],
    "checksums": {
     "name": "07-SHA256SUMS.txt",
-    "url": "https://github.com/KokunoYumeto/emmy-noether-ko/releases/download/noether-ko-2026-10-26/07-SHA256SUMS.txt",
+    "url": "https://github.com/KokunoYumeto/emmy-noether-ko/releases/download/noether-ko-2026-10-26-r2/07-SHA256SUMS.txt",
     "bytes": 571,
-    "sha256": "37e728b0efc6f107e50c2ebffbe720f86a6234ff7337c0e53d30f2e80d40035b"
+    "sha256": "42f51fcd083ebdc6dc861837e2a5ecdf9dc2c8c85a37b012cdbe4c266899e2cb"
    },
    "translation_basis": "The README names Korean v1.0.0 (2026-08-13, doi:10.5281/zenodo.21921524) as the base; its German base was ED0011/v047.",
    "authorship": "AI-translated. Translation: OpenAI Codex (model not recorded). Corrections and typesetting: OpenAI Codex (GPT-6 Astra, Ultra), October 2026; Claude Opus 5.5 (Anthropic), 26 October 2026.",
-   "rights": "README and LICENSE (a rights statement, not a licence): rights in the original works and protected derivative contributions remain with their holders; free non-commercial, educational distribution rests on the publisher's presumption of no objection; no new blanket licence or public-domain dedication is granted; earlier rights notices apply within their actual scope (NOTICE_HISTORIQUE.md).",
+   "rights": "README and release notes: Emmy Noether's writings are in the public domain; to the extent the publisher holds any rights in the AI-produced translation, corrections and typesetting, they are dedicated to the public domain under CC0 1.0; the lectures written up by M. Deuring, the work of H. Kapferer and the contributions of the named coauthors keep their own legal status. Earlier rights notices are kept in NOTICE_HISTORIQUE.md.",
    "earlier_editions": [
+    "https://github.com/KokunoYumeto/emmy-noether-ko/releases/tag/noether-ko-2026-10-26",
     "https://github.com/KokunoYumeto/emmy-noether-ko/releases/tag/noether-ko-2026-10-24",
     "https://doi.org/10.5281/zenodo.21921524",
     "https://doi.org/10.5281/zenodo.21921523",
@@ -382,14 +427,14 @@
     "https://github.com/KokunoYumeto/emmy-noether-ko/releases/tag/v1.0.0"
    ],
    "limitations": [
-    "Paper 15, display (7): the substitution is written ξ14 = ξ13 only; the German display also substitutes ξ24 = ξ23, while the German text before it names only ξ14 = ξ13."
+    "Formulas: compared with the German source text, which follows Noether's printed pages, and brought into line with it where the comparison could be made automatically. Some formulas still follow the earlier German transcription, for example in the extent of a hat or subscript, in letter forms such as ϱ and ϰ, or in a multiplication dot; where the two differ, the German source text has the printed reading."
    ],
    "edition_date": "2026-10-26",
    "production": {
     "translation": "OpenAI Codex (model not recorded)",
     "corrections_and_typesetting": "OpenAI Codex (GPT-6 Astra, Ultra), October 2026; Claude Opus 5.5 (Anthropic), 26 October 2026"
    },
-   "rights_summary": "Rights with their holders; distributed on a presumption of no objection; no new licence; earlier notices apply within their scope"
+   "rights_summary": "Emmy Noether's writings in the public domain; CC0 1.0 for the AI-produced translation, corrections and typesetting; the lectures written up by M. Deuring, H. Kapferer's work and the coauthors' contributions keep their own status"
   },
   {
    "id": "noether-zh-hans",
@@ -404,8 +449,8 @@
    "status_label": "Complete",
    "repository": "https://github.com/KokunoYumeto/emmy-noether-zh-hans",
    "edition_home": "https://github.com/KokunoYumeto/emmy-noether-zh-hans",
-   "release": "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/noether-zh-Hans-2026-10-26",
-   "release_tag": "noether-zh-Hans-2026-10-26",
+   "release": "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/noether-zh-Hans-2026-10-26-r2",
+   "release_tag": "noether-zh-Hans-2026-10-26-r2",
    "coverage": {
     "papers": "1-43",
     "lectures_1929_30": true,
@@ -417,18 +462,18 @@
    "readers": [
     {
      "name": "01-noether-zh-Hans-base.pdf",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-26/01-noether-zh-Hans-base.pdf",
-     "bytes": 2584187,
-     "sha256": "6678cd0155ebce8203c5a1ae052d92bfc5e95f2ebca055544c2473b40640b33c",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-26-r2/01-noether-zh-Hans-base.pdf",
+     "bytes": 2592883,
+     "sha256": "575b5083558dc5f9947a028de43b23efb76a920fda7b45294cd2daf0985b7820",
      "layer": "base text",
      "format": "PDF",
      "pages": 425
     },
     {
      "name": "04-noether-zh-Hans-emendations.pdf",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-26/04-noether-zh-Hans-emendations.pdf",
-     "bytes": 2595778,
-     "sha256": "12c028309f1ae70905d37a95c83df951670e6b974a254592f255b8dec7318299",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-26-r2/04-noether-zh-Hans-emendations.pdf",
+     "bytes": 2603965,
+     "sha256": "cb05c083628392018c17adf86212c29b9634a21c9e5438b19641b20780a1a988",
      "layer": "text with emendations",
      "format": "PDF",
      "pages": 430
@@ -437,33 +482,33 @@
    "sources": [
     {
      "name": "02-noether-zh-Hans-base.tex",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-26/02-noether-zh-Hans-base.tex",
-     "bytes": 1856885,
-     "sha256": "9f6e780f45f4bc7797f935c640f8ac69d9c47d757d846f73edafc75f81d4a4e0",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-26-r2/02-noether-zh-Hans-base.tex",
+     "bytes": 1871740,
+     "sha256": "bf080b0d039b78e96f016961ddd2be5775159d6d90e838aac0e2169d3bad830c",
      "layer": "base text",
      "format": "TEX"
     },
     {
      "name": "05-noether-zh-Hans-emendations.tex",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-26/05-noether-zh-Hans-emendations.tex",
-     "bytes": 1862117,
-     "sha256": "5c0919dac4c5b9dd6c63fbc9eca038fe5ee0fdbb9a24642c0dc65a3523f78851",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-26-r2/05-noether-zh-Hans-emendations.tex",
+     "bytes": 1877150,
+     "sha256": "656fe1e9c2b654ca2a807fbec6da72d0b58ba5f81c7680bff830260e573b4dba",
      "layer": "text with emendations",
      "format": "TEX"
     },
     {
      "name": "03-noether-zh-Hans-base-sources.zip",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-26/03-noether-zh-Hans-base-sources.zip",
-     "bytes": 70573471,
-     "sha256": "fa1f69dcdfcd81e8b92ca6bfc3489acd5ea4f89681ea3e11ce80aa8811660d82",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-26-r2/03-noether-zh-Hans-base-sources.zip",
+     "bytes": 70580394,
+     "sha256": "a3c3fffe94335040b2085e10e94d97d5e995829a2e098cca4ec080ad8927b027",
      "layer": "base text",
      "format": "ZIP"
     },
     {
      "name": "06-noether-zh-Hans-emendations-sources.zip",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-26/06-noether-zh-Hans-emendations-sources.zip",
-     "bytes": 70582137,
-     "sha256": "2ebf950921cafda38ac48b17d6ad3d08ac1f9280843b9261a0ee40c73781de7d",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-26-r2/06-noether-zh-Hans-emendations-sources.zip",
+     "bytes": 70588847,
+     "sha256": "9f6ef97d484778451b90691fbdb0375a928ea7b8d02acb4d860a75673212f98a",
      "layer": "text with emendations",
      "format": "ZIP"
     }
@@ -471,7 +516,7 @@
    "programs": [
     {
      "name": "08-noether-chinese-script-code-2026-10-24-r2.zip",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-26/08-noether-chinese-script-code-2026-10-24-r2.zip",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-26-r2/08-noether-chinese-script-code-2026-10-24-r2.zip",
      "bytes": 32553,
      "sha256": "2b3744f87305c5d6ef04f069e19d8825fbc3997d1a918f086187f89008f8bfce",
      "layer": "program",
@@ -480,14 +525,15 @@
    ],
    "checksums": {
     "name": "07-SHA256SUMS.txt",
-    "url": "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-26/07-SHA256SUMS.txt",
+    "url": "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-26-r2/07-SHA256SUMS.txt",
     "bytes": 723,
-    "sha256": "bbee2c65247a6f65c376b3da32dd516128e2af1e94e2241a5772319e38a3b875"
+    "sha256": "e4e3a3d72f67a3dbbb853a4345b904bd6817a045f6d15230a995236b4bd0a886"
    },
    "translation_basis": "The README names Simplified Chinese v1.0.0 (2026-08-14, doi:10.5281/zenodo.21933035) as the base; its German base was ED0011/v047.",
    "authorship": "AI-translated. Translation: OpenAI Codex (model not recorded). Compilation and script-conversion program: OpenAI Codex (GPT-5.6 Sol, Ultra), 12 August 2026. Corrections and typesetting: OpenAI Codex (GPT-6 Astra, Ultra), 23–24 October 2026; Claude Opus 5.5 (Anthropic), 26 October 2026.",
-   "rights": "README and LICENSE (a rights statement): rights in the original works and protected derivative contributions remain with their holders; free non-commercial, educational distribution rests on the publisher's presumption of no objection; no new blanket licence or public-domain dedication is granted. The bundled Noto fonts are under the SIL Open Font License 1.1.",
+   "rights": "README and release notes: Emmy Noether's writings are in the public domain; to the extent the publisher holds any rights in the AI-produced translation, corrections and typesetting, they are dedicated to the public domain under CC0 1.0; the lectures written up by M. Deuring, the work of H. Kapferer and the contributions of the named coauthors keep their own legal status. The bundled Noto fonts are under the SIL Open Font License 1.1.",
    "earlier_editions": [
+    "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/noether-zh-Hans-2026-10-26",
     "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/noether-zh-Hans-2026-10-24-r2",
     "https://doi.org/10.5281/zenodo.21933035",
     "https://doi.org/10.5281/zenodo.21933034",
@@ -499,7 +545,7 @@
    "limitations": [
     "Papers 24, 31, 32 and 34 (and parts of 35 and 40) follow an earlier English translation whose formulas differ from the German text in places.",
     "Paper 38: a Fraktur 𝔭 may be printed as p.",
-    "Paper 15, display (7): the substitution is written ξ14 = ξ13 only; the German display also substitutes ξ24 = ξ23, while the German text before it names only ξ14 = ξ13."
+    "Formulas: compared with the German source text, which follows Noether's printed pages, and brought into line with it where the comparison could be made automatically. Some formulas still follow the earlier German transcription, for example in the extent of a hat or subscript, in letter forms such as ϱ and ϰ, or in a multiplication dot; where the two differ, the German source text has the printed reading."
    ],
    "edition_date": "2026-10-26",
    "production": {
@@ -507,7 +553,7 @@
     "corrections_and_typesetting": "OpenAI Codex (GPT-6 Astra, Ultra), 23–24 October 2026; Claude Opus 5.5 (Anthropic), 26 October 2026",
     "other": "Compilation and script-conversion program: OpenAI Codex (GPT-5.6 Sol, Ultra), 12 August 2026"
    },
-   "rights_summary": "Rights with their holders; distributed on a presumption of no objection; no new licence; bundled Noto fonts under SIL OFL 1.1"
+   "rights_summary": "Emmy Noether's writings in the public domain; CC0 1.0 for the AI-produced translation, corrections and typesetting; the lectures written up by M. Deuring, H. Kapferer's work and the coauthors' contributions keep their own status; bundled Noto fonts under SIL OFL 1.1"
   },
   {
    "id": "noether-zh-hant",
@@ -522,8 +568,8 @@
    "status_label": "Complete",
    "repository": "https://github.com/KokunoYumeto/modern-latex-manuscripts",
    "edition_home": "https://github.com/KokunoYumeto/modern-latex-manuscripts/tree/main/editions/noether/2026-10-24-r2/zh-Hant",
-   "release": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/noether-zh-Hant-2026-10-26",
-   "release_tag": "noether-zh-Hant-2026-10-26",
+   "release": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/noether-zh-Hant-2026-10-26-r2",
+   "release_tag": "noether-zh-Hant-2026-10-26-r2",
    "coverage": {
     "papers": "1-43",
     "lectures_1929_30": true,
@@ -535,53 +581,53 @@
    "readers": [
     {
      "name": "01-noether-zh-Hant-base.pdf",
-     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-zh-Hant-2026-10-26/01-noether-zh-Hant-base.pdf",
-     "bytes": 3198411,
-     "sha256": "e11d45f04d94f025fd40f26ccce9e517c17af4ba5c6eee41671bb9ad7e2f2e6b",
+     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-zh-Hant-2026-10-26-r2/01-noether-zh-Hant-base.pdf",
+     "bytes": 3206156,
+     "sha256": "772c99f0a32eb0e4e0e0897c11c3e5bf44241bb909861d0543ebcc6457669bc2",
      "layer": "base text",
      "format": "PDF",
-     "pages": 427
+     "pages": 426
     },
     {
      "name": "04-noether-zh-Hant-emendations.pdf",
-     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-zh-Hant-2026-10-26/04-noether-zh-Hant-emendations.pdf",
-     "bytes": 3210422,
-     "sha256": "ecb2d0c2cbd1676fcd8ae8108b278d81aee3a0d03d52bba1bf3a07680fe773b6",
+     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-zh-Hant-2026-10-26-r2/04-noether-zh-Hant-emendations.pdf",
+     "bytes": 3217661,
+     "sha256": "7b5395c9355d4506b93bfe5b787e34107a18ee2323df6874a0a89e6c3e1f74ac",
      "layer": "text with emendations",
      "format": "PDF",
-     "pages": 432
+     "pages": 431
     }
    ],
    "sources": [
     {
      "name": "02-noether-zh-Hant-base.tex",
-     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-zh-Hant-2026-10-26/02-noether-zh-Hant-base.tex",
-     "bytes": 1856977,
-     "sha256": "00c8158cc770dcdb1ff231e11de2435485b0e3dfc29427ab0053ffeeb81a077f",
+     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-zh-Hant-2026-10-26-r2/02-noether-zh-Hant-base.tex",
+     "bytes": 1871838,
+     "sha256": "5ecbbe20e82a4f812034244e70da8aaef46b2b375f288879eabb3e1b5ab1f173",
      "layer": "base text",
      "format": "TEX"
     },
     {
      "name": "05-noether-zh-Hant-emendations.tex",
-     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-zh-Hant-2026-10-26/05-noether-zh-Hant-emendations.tex",
-     "bytes": 1862212,
-     "sha256": "9659798f714a7edc87be00777d28341e374af8ad7944fe38d77084b1ae48ff85",
+     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-zh-Hant-2026-10-26-r2/05-noether-zh-Hant-emendations.tex",
+     "bytes": 1877251,
+     "sha256": "7d464feb2cc7fc914ae9256e2d4a7cc49a485639fa5bdac49b36120eb4efc99e",
      "layer": "text with emendations",
      "format": "TEX"
     },
     {
      "name": "03-noether-zh-Hant-base-sources.zip",
-     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-zh-Hant-2026-10-26/03-noether-zh-Hant-base-sources.zip",
-     "bytes": 1138324,
-     "sha256": "ded4d043baaf8ce1b1503a6504ef332248bf94e0a194a0251310589dca930096",
+     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-zh-Hant-2026-10-26-r2/03-noether-zh-Hant-base-sources.zip",
+     "bytes": 1145252,
+     "sha256": "78e57bf0bef89ce15390fbcc46875a52fa87b731cf73b158ecb8940fd7faa1da",
      "layer": "base text",
      "format": "ZIP"
     },
     {
      "name": "06-noether-zh-Hant-emendations-sources.zip",
-     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-zh-Hant-2026-10-26/06-noether-zh-Hant-emendations-sources.zip",
-     "bytes": 1147024,
-     "sha256": "b99fb7885a73321edcd55d554583ad7acf9ad632790bca8e7b8fd9ef50059ad9",
+     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-zh-Hant-2026-10-26-r2/06-noether-zh-Hant-emendations-sources.zip",
+     "bytes": 1153647,
+     "sha256": "1666fe0c320cd2e5082d4fed8135d723c5d30ee0ba24dc19cede01de232a2642",
      "layer": "text with emendations",
      "format": "ZIP"
     }
@@ -589,7 +635,7 @@
    "programs": [
     {
      "name": "08-noether-chinese-script-code-2026-10-24-r2.zip",
-     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-zh-Hant-2026-10-26/08-noether-chinese-script-code-2026-10-24-r2.zip",
+     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-zh-Hant-2026-10-26-r2/08-noether-chinese-script-code-2026-10-24-r2.zip",
      "bytes": 32553,
      "sha256": "2b3744f87305c5d6ef04f069e19d8825fbc3997d1a918f086187f89008f8bfce",
      "layer": "program",
@@ -598,14 +644,15 @@
    ],
    "checksums": {
     "name": "07-SHA256SUMS.txt",
-    "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-zh-Hant-2026-10-26/07-SHA256SUMS.txt",
+    "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-zh-Hant-2026-10-26-r2/07-SHA256SUMS.txt",
     "bytes": 723,
-    "sha256": "4fb46afb7cf88b6bf4c549a1c234d1d41374bb5ad1c6f9cd21831ab25234f8e9"
+    "sha256": "c1a8f28525c09ca4b407544a553153658ecd7c00ce5475b87d6b2dcbb498000d"
    },
    "translation_basis": "Generated from the Simplified Chinese text by the script-conversion program (opencc-python-reimplemented 0.1.7, s2t); vocabulary kept, no regional localization.",
    "authorship": "Program-generated Traditional-character form of the AI-translated Simplified Chinese text. Corrections and typesetting as for the Simplified Chinese edition.",
-   "rights": "Release notes: rights remain with their holders; free non-commercial, educational distribution rests on the publisher's presumption of no objection; no new licence or public-domain dedication. Repository LICENSE (modern-latex-manuscripts): CC0 1.0 for project-created material unless a file or upstream source says otherwise.",
+   "rights": "README and release notes: Emmy Noether's writings are in the public domain; to the extent the publisher holds any rights in the AI-produced translation, corrections and typesetting, they are dedicated to the public domain under CC0 1.0; the lectures written up by M. Deuring, the work of H. Kapferer and the contributions of the named coauthors keep their own legal status. Repository LICENSE (modern-latex-manuscripts): CC0 1.0 for project-created material unless a file or upstream source says otherwise.",
    "earlier_editions": [
+    "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/noether-zh-Hant-2026-10-26",
     "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/noether-zh-Hant-2026-10-24-r2"
    ],
    "limitations": [
@@ -616,7 +663,7 @@
     "translation": "Generated from the Simplified Chinese text by the script-conversion program (opencc-python-reimplemented 0.1.7, s2t)",
     "corrections_and_typesetting": "As for the Simplified Chinese edition"
    },
-   "rights_summary": "Rights with their holders; distributed on a presumption of no objection; no new licence; repository LICENSE: CC0 1.0 for project-created material"
+   "rights_summary": "Emmy Noether's writings in the public domain; CC0 1.0 for the AI-produced translation, corrections and typesetting; the lectures written up by M. Deuring, H. Kapferer's work and the coauthors' contributions keep their own status"
   },
   {
    "id": "noether-es",
@@ -631,8 +678,8 @@
    "status_label": "Complete",
    "repository": "https://github.com/KokunoYumeto/modern-latex-manuscripts",
    "edition_home": "https://github.com/KokunoYumeto/modern-latex-manuscripts/tree/main/editions/noether/2026-10-24-r2/es",
-   "release": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/noether-es-2026-10-26",
-   "release_tag": "noether-es-2026-10-26",
+   "release": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/noether-es-2026-10-26-r2",
+   "release_tag": "noether-es-2026-10-26-r2",
    "coverage": {
     "papers": "1-43",
     "lectures_1929_30": true,
@@ -644,18 +691,18 @@
    "readers": [
     {
      "name": "01-noether-es-base.pdf",
-     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-es-2026-10-26/01-noether-es-base.pdf",
-     "bytes": 2546885,
-     "sha256": "d0194e5b370cf68dc5447053d34096a4688458cf96de3ec76d766a37ef12c00b",
+     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-es-2026-10-26-r2/01-noether-es-base.pdf",
+     "bytes": 2559562,
+     "sha256": "8410148057b0745700031f5deee02d64f6bbe4b9a534c731ab1e6c6a0ec5bc7d",
      "layer": "base text",
      "format": "PDF",
      "pages": 478
     },
     {
      "name": "04-noether-es-emendations.pdf",
-     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-es-2026-10-26/04-noether-es-emendations.pdf",
-     "bytes": 2559481,
-     "sha256": "118c866026ffc34018314f8fc2f42de029583ad3f691093770aec30124f3b462",
+     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-es-2026-10-26-r2/04-noether-es-emendations.pdf",
+     "bytes": 2571279,
+     "sha256": "74a6722a52a9f77c7f0284fd2392356f3723af147e87e58483faaacd97284679",
      "layer": "text with emendations",
      "format": "PDF",
      "pages": 483
@@ -664,33 +711,33 @@
    "sources": [
     {
      "name": "02-noether-es-base.tex",
-     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-es-2026-10-26/02-noether-es-base.tex",
-     "bytes": 2122839,
-     "sha256": "b1a2790914716dc93dcd82e672d135ba45ebdf770a7a8caf81254600ae76373a",
+     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-es-2026-10-26-r2/02-noether-es-base.tex",
+     "bytes": 2141899,
+     "sha256": "e75cb9a9329145bff89692970313401be5307d8771e997f5468718f9d04b89b8",
      "layer": "base text",
      "format": "TEX"
     },
     {
      "name": "05-noether-es-emendations.tex",
-     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-es-2026-10-26/05-noether-es-emendations.tex",
-     "bytes": 2128891,
-     "sha256": "907acc2c46f13d601c96063687dfa8b0f4f5ac679d3965d00d30e282d9eddd5c",
+     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-es-2026-10-26-r2/05-noether-es-emendations.tex",
+     "bytes": 2148123,
+     "sha256": "25d4e8e4b013f3d5758a9bb09a31aeca5780a8e46a0835a35ca55ad828a57e56",
      "layer": "text with emendations",
      "format": "TEX"
     },
     {
      "name": "03-noether-es-base-sources.zip",
-     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-es-2026-10-26/03-noether-es-base-sources.zip",
-     "bytes": 1082643,
-     "sha256": "6dc4a321cdf4c52a5d37204d93fd1fce623103bb4f1187194fcc6a96a9b521e0",
+     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-es-2026-10-26-r2/03-noether-es-base-sources.zip",
+     "bytes": 1089868,
+     "sha256": "60d3f2ba3bee724401705aae643aa3a6a39e77299672f6657a424ce983e2289e",
      "layer": "base text",
      "format": "ZIP"
     },
     {
      "name": "06-noether-es-emendations-sources.zip",
-     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-es-2026-10-26/06-noether-es-emendations-sources.zip",
-     "bytes": 1086626,
-     "sha256": "1c504b4b4c11fbc26dffa719a3a5844ce7add14ae274be62a9a3b289fbb5a7ab",
+     "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-es-2026-10-26-r2/06-noether-es-emendations-sources.zip",
+     "bytes": 1093568,
+     "sha256": "54801d1aed3c82ff29c4705bb2395483348292c216129cdaa5b92cc0338450a1",
      "layer": "text with emendations",
      "format": "ZIP"
     }
@@ -698,23 +745,22 @@
    "programs": [],
    "checksums": {
     "name": "07-noether-es-SHA256SUMS.txt",
-    "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-es-2026-10-26/07-noether-es-SHA256SUMS.txt",
+    "url": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/download/noether-es-2026-10-26-r2/07-noether-es-SHA256SUMS.txt",
     "bytes": 577,
-    "sha256": "4224efd6a3692b53dfe5a8d0c29ba879e225844908a3985be0f62ba0c70cbe43"
+    "sha256": "f8321a5bf40047b9bab262f8f825f3784541c5b6d4fd9f20c603efa5d6d4918b"
    },
    "translation_basis": "Not named in the README.",
    "authorship": "AI-translated. Translation: OpenAI Codex (model not recorded). Corrections and typesetting: OpenAI Codex (GPT-6 Astra, Ultra), 23–24 October 2026; Claude Opus 5.5 (Anthropic), 26 October 2026.",
-   "rights": "README: rights remain with their holders; free non-commercial, educational distribution rests on the publisher's presumption of no objection; no new licence or public-domain dedication. Repository LICENSE (modern-latex-manuscripts): CC0 1.0 for project-created material unless a file or upstream source says otherwise.",
+   "rights": "README and release notes: Emmy Noether's writings are in the public domain; to the extent the publisher holds any rights in the AI-produced translation, corrections and typesetting, they are dedicated to the public domain under CC0 1.0; the lectures written up by M. Deuring, the work of H. Kapferer and the contributions of the named coauthors keep their own legal status. Repository LICENSE (modern-latex-manuscripts): CC0 1.0 for project-created material unless a file or upstream source says otherwise.",
    "earlier_editions": [
+    "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/noether-es-2026-10-26",
     "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/noether-es-2026-10-24-r2"
    ],
    "limitations": [
     "Papers 23, 24, 30, 31, 32, 34 and 37 (and parts of 35 and 40) follow an earlier English translation whose formulas differ from the German text in places; in Paper 31, section 8.2 is shortened.",
-    "Paper 2: in two places the text reads ĵ where the German text reads ϑ̂.",
-    "Papers 1 and 2 may lack some multiplication dots of the German text.",
     "Paper 2: three footnotes of the German text (the note on Σ₃ and the citations of Gordan–Kerschensteiner, pp. 92 and 134) are marked only by an asterisk or attached to a neighbouring sentence.",
     "Paper 20 and the 1929/30 lectures: some readings may differ from the German text.",
-    "Paper 15, display (7): the substitution is written ξ14 = ξ13 only; the German display also substitutes ξ24 = ξ23, while the German text before it names only ξ14 = ξ13.",
+    "Formulas: compared with the German source text, which follows Noether's printed pages, and brought into line with it where the comparison could be made automatically. Some formulas still follow the earlier German transcription, for example in the extent of a hat or subscript, in letter forms such as ϱ and ϰ, or in a multiplication dot; where the two differ, the German source text has the printed reading.",
     "The PDFs have no bookmarks (outline)."
    ],
    "edition_date": "2026-10-26",
@@ -722,7 +768,7 @@
     "translation": "OpenAI Codex (model not recorded)",
     "corrections_and_typesetting": "OpenAI Codex (GPT-6 Astra, Ultra), 23–24 October 2026; Claude Opus 5.5 (Anthropic), 26 October 2026"
    },
-   "rights_summary": "Rights with their holders; distributed on a presumption of no objection; no new licence; repository LICENSE: CC0 1.0 for project-created material"
+   "rights_summary": "Emmy Noether's writings in the public domain; CC0 1.0 for the AI-produced translation, corrections and typesetting; the lectures written up by M. Deuring, H. Kapferer's work and the coauthors' contributions keep their own status"
   },
   {
    "id": "noether-ru",
@@ -737,8 +783,8 @@
    "status_label": "Complete",
    "repository": "https://github.com/KokunoYumeto/emmy-noether-ru",
    "edition_home": "https://github.com/KokunoYumeto/emmy-noether-ru",
-   "release": "https://github.com/KokunoYumeto/emmy-noether-ru/releases/tag/noether-ru-2026-10-26",
-   "release_tag": "noether-ru-2026-10-26",
+   "release": "https://github.com/KokunoYumeto/emmy-noether-ru/releases/tag/noether-ru-2026-10-26-r2",
+   "release_tag": "noether-ru-2026-10-26-r2",
    "coverage": {
     "papers": "1-43",
     "lectures_1929_30": true,
@@ -750,18 +796,18 @@
    "readers": [
     {
      "name": "01-noether-ru-base.pdf",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26/01-noether-ru-base.pdf",
-     "bytes": 3392853,
-     "sha256": "baac7c6d3cdae6bda3c8cb1bb49ef11e4f12bbbf3390246b3bfe6de623a15f1f",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26-r2/01-noether-ru-base.pdf",
+     "bytes": 3415673,
+     "sha256": "ffaf7152624ce2b00fcfb412f5bbf829ee60715e4e2a8d8e9c2b574bb21eb7ca",
      "layer": "base text",
      "format": "PDF",
      "pages": 523
     },
     {
      "name": "04-noether-ru-emendations.pdf",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26/04-noether-ru-emendations.pdf",
-     "bytes": 3415420,
-     "sha256": "16966e64e8f6b7c0a4571f84a42acb34499d01d9e8ecbf49160791399ffdcb9b",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26-r2/04-noether-ru-emendations.pdf",
+     "bytes": 3437426,
+     "sha256": "a3314378b40afdd9c0ed76e8b9946a58cbc9019e8106cb4726bd4b8e286a680f",
      "layer": "text with emendations",
      "format": "PDF",
      "pages": 528
@@ -770,33 +816,33 @@
    "sources": [
     {
      "name": "02-noether-ru-base.tex",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26/02-noether-ru-base.tex",
-     "bytes": 3095377,
-     "sha256": "235d1c4fd9ac7ea7e88a7ad0e399adaeb5ffc99b4f3ed0c5b90e4babda7615ce",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26-r2/02-noether-ru-base.tex",
+     "bytes": 3108420,
+     "sha256": "77947425911cc5b024a77f0787cb95ed09dcd8ed0f7e97d6ff654a248eb3df01",
      "layer": "base text",
      "format": "TEX"
     },
     {
      "name": "05-noether-ru-emendations.tex",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26/05-noether-ru-emendations.tex",
-     "bytes": 3104265,
-     "sha256": "1a41bea9e06a23b7637f34617b9e6bd76ddd127c642e40ffd91c792953eaa468",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26-r2/05-noether-ru-emendations.tex",
+     "bytes": 3117490,
+     "sha256": "db70f5ce12b730a214b779fc0f1184b2177aa9bde06c8dfbf2fc5d0ef17148d2",
      "layer": "text with emendations",
      "format": "TEX"
     },
     {
      "name": "03-noether-ru-base-sources.zip",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26/03-noether-ru-base-sources.zip",
-     "bytes": 1307624,
-     "sha256": "4dc66d7c2b573a13057a2954643cc2b0306b27c037193c4454f9edc1a41ced2c",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26-r2/03-noether-ru-base-sources.zip",
+     "bytes": 1313313,
+     "sha256": "54fde57920169f477bdd3fc6b1c1d8e61a3c33475290eebde09d9318153b9d20",
      "layer": "base text",
      "format": "ZIP"
     },
     {
      "name": "06-noether-ru-emendations-sources.zip",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26/06-noether-ru-emendations-sources.zip",
-     "bytes": 1312579,
-     "sha256": "f813c8589d6c48018a9f75fcbd056113bb5c127fdddb97fa39c8926fc87e34be",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26-r2/06-noether-ru-emendations-sources.zip",
+     "bytes": 1317927,
+     "sha256": "8973a50bb1b024736d78211b7a406c71e2b0eb8233382bebc8482bd0fb9c8388",
      "layer": "text with emendations",
      "format": "ZIP"
     }
@@ -804,14 +850,15 @@
    "programs": [],
    "checksums": {
     "name": "07-noether-ru-SHA256SUMS.txt",
-    "url": "https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26/07-noether-ru-SHA256SUMS.txt",
+    "url": "https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26-r2/07-noether-ru-SHA256SUMS.txt",
     "bytes": 577,
-    "sha256": "1191f1f8042b6bc7121c781c042b678e0529fe39969674873679cf54e38f3631"
+    "sha256": "2ec40ac4ef0fbcbf2a090c170040f005997fcd7d29b36bdc84e611622deaf90e"
    },
    "translation_basis": "Not named in the README.",
    "authorship": "AI-translated. Translation: OpenAI Codex (model not recorded). Corrections and typesetting: OpenAI Codex (GPT-6 Astra, Ultra), 23–24 October 2026; Claude Opus 5.5 (Anthropic), 26 October 2026.",
-   "rights": "Repository LICENSE: CC0 1.0 only to the extent rights exist in project-created translation, typesetting, metadata, manifests, tools and evidence; original works, German editorial material, facsimiles, fonts, software and third-party material are not relicensed. README: rights remain with their holders; distribution rests on the publisher's presumption of no objection; no new licence or public-domain dedication is granted.",
+   "rights": "README and release notes: Emmy Noether's writings are in the public domain; to the extent the publisher holds any rights in the AI-produced translation, corrections and typesetting, they are dedicated to the public domain under CC0 1.0; the lectures written up by M. Deuring, the work of H. Kapferer and the contributions of the named coauthors keep their own legal status. Repository LICENSE: CC0 1.0 for the project-created translation, typesetting, metadata, tools and evidence.",
    "earlier_editions": [
+    "https://github.com/KokunoYumeto/emmy-noether-ru/releases/tag/noether-ru-2026-10-26",
     "https://github.com/KokunoYumeto/emmy-noether-ru/releases/tag/noether-ru-2026-10-24-r2",
     "https://doi.org/10.5281/zenodo.20412587",
     "https://doi.org/10.5281/zenodo.21926366",
@@ -821,10 +868,8 @@
    "limitations": [
     "Papers 23, 24, 30, 31, 32, 34, 37 and 41–43 (and parts of 35 and 40) follow an earlier English translation whose formulas differ from the German text in places.",
     "Paper 43 is a shortened text, about a third of the full paper; Papers 41 and 42 are shortened to about four fifths.",
-    "Paper 2: in two places the text reads ĵ where the German text reads ϑ̂.",
-    "Papers 1 and 2 may lack some multiplication dots of the German text.",
     "Paper 2: three footnotes of the German text (the note on Σ₃ and the citations of Gordan–Kerschensteiner, pp. 92 and 134) are marked only by an asterisk or attached to a neighbouring sentence.",
-    "Paper 15, display (7): the substitution is written ξ14 = ξ13 only; the German display also substitutes ξ24 = ξ23, while the German text before it names only ξ14 = ξ13.",
+    "Formulas: compared with the German source text, which follows Noether's printed pages, and brought into line with it where the comparison could be made automatically. Some formulas still follow the earlier German transcription, for example in the extent of a hat or subscript, in letter forms such as ϱ and ϰ, or in a multiplication dot; where the two differ, the German source text has the printed reading.",
     "The PDFs have no bookmarks (outline)."
    ],
    "edition_date": "2026-10-26",
@@ -832,7 +877,7 @@
     "translation": "OpenAI Codex (model not recorded)",
     "corrections_and_typesetting": "OpenAI Codex (GPT-6 Astra, Ultra), 23–24 October 2026; Claude Opus 5.5 (Anthropic), 26 October 2026"
    },
-   "rights_summary": "Repository LICENSE: CC0 1.0 for project-created material; README: rights with their holders; distributed on a presumption of no objection; no new licence"
+   "rights_summary": "Emmy Noether's writings in the public domain; CC0 1.0 for the AI-produced translation, corrections and typesetting; the lectures written up by M. Deuring, H. Kapferer's work and the coauthors' contributions keep their own status"
   },
   {
    "id": "noether-uk",
@@ -847,8 +892,8 @@
    "status_label": "Complete",
    "repository": "https://github.com/KokunoYumeto/emmy-noether-uk",
    "edition_home": "https://github.com/KokunoYumeto/emmy-noether-uk",
-   "release": "https://github.com/KokunoYumeto/emmy-noether-uk/releases/tag/noether-uk-2026-10-26",
-   "release_tag": "noether-uk-2026-10-26",
+   "release": "https://github.com/KokunoYumeto/emmy-noether-uk/releases/tag/noether-uk-2026-10-26-r2",
+   "release_tag": "noether-uk-2026-10-26-r2",
    "coverage": {
     "papers": "1-43",
     "lectures_1929_30": true,
@@ -860,18 +905,18 @@
    "readers": [
     {
      "name": "01-noether-uk-base.pdf",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-26/01-noether-uk-base.pdf",
-     "bytes": 3268803,
-     "sha256": "c3e89f05bc917d99edd758d926c0b4bf20f22d596f6edf38110f6e9a5288fc29",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-26-r2/01-noether-uk-base.pdf",
+     "bytes": 3290924,
+     "sha256": "08a434ef72216e87c4b5b3de8e1b4c317268bf1f8acf1fea8d163f800114b3b8",
      "layer": "base text",
      "format": "PDF",
-     "pages": 503
+     "pages": 502
     },
     {
      "name": "04-noether-uk-emendations.pdf",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-26/04-noether-uk-emendations.pdf",
-     "bytes": 3291280,
-     "sha256": "7114621c0aaad1445193f246fa186dcf19144504536b83196357cd1bec8baf0c",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-26-r2/04-noether-uk-emendations.pdf",
+     "bytes": 3313414,
+     "sha256": "5ee12d3eedd3b34f61a03ad049d2b5c547feccc865ae8b27ad9947d042a72aa3",
      "layer": "text with emendations",
      "format": "PDF",
      "pages": 508
@@ -880,33 +925,33 @@
    "sources": [
     {
      "name": "02-noether-uk-base.tex",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-26/02-noether-uk-base.tex",
-     "bytes": 2910984,
-     "sha256": "58bbef1ea85e3765c3062eb8c37cec863b0623162062496947e43e152d2ceb34",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-26-r2/02-noether-uk-base.tex",
+     "bytes": 2924024,
+     "sha256": "d49181ff304870b6e04e3fad5160ba7d66e3b5dee06216319415df77b69fb027",
      "layer": "base text",
      "format": "TEX"
     },
     {
      "name": "05-noether-uk-emendations.tex",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-26/05-noether-uk-emendations.tex",
-     "bytes": 2919674,
-     "sha256": "f1577263c437c2eda318319c6bd5d4e05325c81c5239bbab7140bac4648eb3f1",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-26-r2/05-noether-uk-emendations.tex",
+     "bytes": 2932902,
+     "sha256": "afefea9b812dd27fa7c9e224617650e794209fdeb52e9f6c390440acd4b2c95b",
      "layer": "text with emendations",
      "format": "TEX"
     },
     {
      "name": "03-noether-uk-base-sources.zip",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-26/03-noether-uk-base-sources.zip",
-     "bytes": 1274299,
-     "sha256": "0987cf73ae6b741f8d75c59200489f27530b9d9ac3bd60aac90e18a44c3e623c",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-26-r2/03-noether-uk-base-sources.zip",
+     "bytes": 1279985,
+     "sha256": "9fef1ef1f86d471c4bb534de13b382bf82023135a49137c45428e68ad251d546",
      "layer": "base text",
      "format": "ZIP"
     },
     {
      "name": "06-noether-uk-emendations-sources.zip",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-26/06-noether-uk-emendations-sources.zip",
-     "bytes": 1279109,
-     "sha256": "7ddad561c4ca1b0b5a432457a2f072fc0e113802ef345676be64cae61e5a2dd0",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-26-r2/06-noether-uk-emendations-sources.zip",
+     "bytes": 1284472,
+     "sha256": "ccadad89c0f5b85aeebb0d8308fae1d1c66fcdcd3b00a4d66e45b833bc36d217",
      "layer": "text with emendations",
      "format": "ZIP"
     }
@@ -914,14 +959,15 @@
    "programs": [],
    "checksums": {
     "name": "07-noether-uk-SHA256SUMS.txt",
-    "url": "https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-26/07-noether-uk-SHA256SUMS.txt",
+    "url": "https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-26-r2/07-noether-uk-SHA256SUMS.txt",
     "bytes": 577,
-    "sha256": "103ed5598772bcbf39b45b06ff3ae3aae72928943a9fecc619306d76cd835f0f"
+    "sha256": "5e46729b4c475563b5727bd0b32335fe3310a27842daf4110c81616eae8fc200"
    },
    "translation_basis": "Not named in the README.",
    "authorship": "AI-translated. Translation: OpenAI Codex (model not recorded). Corrections and typesetting: OpenAI Codex (GPT-6 Astra, Ultra), 23–24 October 2026; Claude Opus 5.5 (Anthropic), 26 October 2026.",
-   "rights": "Repository LICENSE: CC0 1.0 only to the extent rights exist in project-created translation, typesetting, metadata, manifests, tools and evidence; original works and third-party material are not relicensed. README: rights remain with their holders; distribution rests on the publisher's presumption of no objection; no new licence or public-domain dedication is granted.",
+   "rights": "README and release notes: Emmy Noether's writings are in the public domain; to the extent the publisher holds any rights in the AI-produced translation, corrections and typesetting, they are dedicated to the public domain under CC0 1.0; the lectures written up by M. Deuring, the work of H. Kapferer and the contributions of the named coauthors keep their own legal status. Repository LICENSE: CC0 1.0 for the project-created translation, typesetting, metadata, tools and evidence.",
    "earlier_editions": [
+    "https://github.com/KokunoYumeto/emmy-noether-uk/releases/tag/noether-uk-2026-10-26",
     "https://github.com/KokunoYumeto/emmy-noether-uk/releases/tag/noether-uk-2026-10-24-r2",
     "https://doi.org/10.5281/zenodo.20412587",
     "https://doi.org/10.5281/zenodo.21926373",
@@ -931,10 +977,8 @@
    "limitations": [
     "Papers 23, 24, 30, 31, 32, 34, 37 and 41–43 (and parts of 35 and 40) follow an earlier English translation whose formulas differ from the German text in places.",
     "Paper 43 is a shortened text, about a third of the full paper; Papers 41 and 42 are shortened to about four fifths.",
-    "Paper 2: in two places the text reads ĵ where the German text reads ϑ̂.",
-    "Papers 1 and 2 may lack some multiplication dots of the German text.",
     "Paper 2: three footnotes of the German text (the note on Σ₃ and the citations of Gordan–Kerschensteiner, pp. 92 and 134) are marked only by an asterisk or attached to a neighbouring sentence.",
-    "Paper 15, display (7): the substitution is written ξ14 = ξ13 only; the German display also substitutes ξ24 = ξ23, while the German text before it names only ξ14 = ξ13.",
+    "Formulas: compared with the German source text, which follows Noether's printed pages, and brought into line with it where the comparison could be made automatically. Some formulas still follow the earlier German transcription, for example in the extent of a hat or subscript, in letter forms such as ϱ and ϰ, or in a multiplication dot; where the two differ, the German source text has the printed reading.",
     "The PDFs have no bookmarks (outline)."
    ],
    "edition_date": "2026-10-26",
@@ -942,7 +986,7 @@
     "translation": "OpenAI Codex (model not recorded)",
     "corrections_and_typesetting": "OpenAI Codex (GPT-6 Astra, Ultra), 23–24 October 2026; Claude Opus 5.5 (Anthropic), 26 October 2026"
    },
-   "rights_summary": "Repository LICENSE: CC0 1.0 for project-created material; README: rights with their holders; distributed on a presumption of no objection; no new licence"
+   "rights_summary": "Emmy Noether's writings in the public domain; CC0 1.0 for the AI-produced translation, corrections and typesetting; the lectures written up by M. Deuring, H. Kapferer's work and the coauthors' contributions keep their own status"
   },
   {
    "id": "noether-isv-latn",
@@ -957,8 +1001,8 @@
    "status_label": "Complete",
    "repository": "https://github.com/KokunoYumeto/emmy-noether-isv",
    "edition_home": "https://github.com/KokunoYumeto/emmy-noether-isv",
-   "release": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-10-26",
-   "release_tag": "noether-isv-2026-10-26",
+   "release": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-10-26-r2",
+   "release_tag": "noether-isv-2026-10-26-r2",
    "coverage": {
     "papers": "1-43",
     "lectures_1929_30": true,
@@ -970,18 +1014,18 @@
    "readers": [
     {
      "name": "01-noether-isv-Latn-base.pdf",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26/01-noether-isv-Latn-base.pdf",
-     "bytes": 2973773,
-     "sha256": "9f15213ed381cab3f36529ae4a6d81b3cc8eff417669f8f0c50eeb5221da977d",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26-r2/01-noether-isv-Latn-base.pdf",
+     "bytes": 2997451,
+     "sha256": "7dadeddd90c60ffa04646bd726533b253c31bf6a0c85e6cd2036352d8d1d3989",
      "layer": "base text",
      "format": "PDF",
      "pages": 482
     },
     {
      "name": "04-noether-isv-Latn-emendations.pdf",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26/04-noether-isv-Latn-emendations.pdf",
-     "bytes": 2996031,
-     "sha256": "9241766dff00ffb5aba1944b48964fd9a4b0264fe9121598a7a7d1497be44c0f",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26-r2/04-noether-isv-Latn-emendations.pdf",
+     "bytes": 3018981,
+     "sha256": "075b047e06cd7ee44208cc6fd67ea58c1b98c316a12d3cb1b766b7280f9f6f6f",
      "layer": "text with emendations",
      "format": "PDF",
      "pages": 487
@@ -990,33 +1034,33 @@
    "sources": [
     {
      "name": "02-noether-isv-Latn-base.tex",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26/02-noether-isv-Latn-base.tex",
-     "bytes": 2039558,
-     "sha256": "ae2d170e766570d40b879ba3571d7ec075c473d3f5e5d506ea42b9ba50ba0d45",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26-r2/02-noether-isv-Latn-base.tex",
+     "bytes": 2052567,
+     "sha256": "872b6aed05a3694aa71b5ea93fe79afa354d2a389be1be73db7842614e5547a8",
      "layer": "base text",
      "format": "TEX"
     },
     {
      "name": "05-noether-isv-Latn-emendations.tex",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26/05-noether-isv-Latn-emendations.tex",
-     "bytes": 2045484,
-     "sha256": "818fcc500a55b364e0061c8828199ff6ca381b8415711e02d936549309ba75f9",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26-r2/05-noether-isv-Latn-emendations.tex",
+     "bytes": 2058675,
+     "sha256": "4b5bfd16c7260fc2cf04039810432b8cddcabcaec89b8bb122fbc56cd3354141",
      "layer": "text with emendations",
      "format": "TEX"
     },
     {
      "name": "03-noether-isv-Latn-base-sources.zip",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26/03-noether-isv-Latn-base-sources.zip",
-     "bytes": 1106549,
-     "sha256": "c3e6b52fd7812d4fac19a6f1226229506a667d8ebac01d1502088cc73df23231",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26-r2/03-noether-isv-Latn-base-sources.zip",
+     "bytes": 1112172,
+     "sha256": "9f3f4da371420f490652667955bb62596b6958e4b901abd358db885e6d935a45",
      "layer": "base text",
      "format": "ZIP"
     },
     {
      "name": "06-noether-isv-Latn-emendations-sources.zip",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26/06-noether-isv-Latn-emendations-sources.zip",
-     "bytes": 1110948,
-     "sha256": "79f4d7e63aac728c7e164cc5f743ea07054ce14168b77f62a2b5fd15237b8ecf",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26-r2/06-noether-isv-Latn-emendations-sources.zip",
+     "bytes": 1116255,
+     "sha256": "c1fe16334207ff576a447570013c7f83abd74a779de02cd38331c481c6c7c33f",
      "layer": "text with emendations",
      "format": "ZIP"
     }
@@ -1024,14 +1068,15 @@
    "programs": [],
    "checksums": {
     "name": "07-noether-isv-Latn-SHA256SUMS.txt",
-    "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26/07-noether-isv-Latn-SHA256SUMS.txt",
+    "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26-r2/07-noether-isv-Latn-SHA256SUMS.txt",
     "bytes": 613,
-    "sha256": "9a5690c236f486a34975f99686a1ae3ee71b91aa7a0637b1db3b943fddbd9e40"
+    "sha256": "99c02befeaa9d216b74f1ca76c0dff8cdffd532e1a6d9921d391efcbf50a09c3"
    },
    "translation_basis": "Not named in the README.",
    "authorship": "AI-translated. Translation: OpenAI Codex (model not recorded). Corrections and typesetting: OpenAI Codex (GPT-6 Astra, Ultra), 23–24 October 2026; Claude Opus 5.5 (Anthropic), 26 October 2026.",
-   "rights": "Repository LICENSE: CC0 1.0 waiver for the project-created Interslavic translation, editorial work, metadata, manifests, validation tools and evidence; third-party material, original works and German editorial material keep their status (LICENSES/ORIGINAL_WORK_ATTRIBUTION.md, LICENSES/THIRD_PARTY_NOTICES.md). README: rights remain with their holders; distribution rests on the publisher's presumption of no objection; no new licence or public-domain dedication is granted.",
+   "rights": "README and release notes: Emmy Noether's writings are in the public domain; to the extent the publisher holds any rights in the AI-produced translation, corrections and typesetting, they are dedicated to the public domain under CC0 1.0; the lectures written up by M. Deuring, the work of H. Kapferer and the contributions of the named coauthors keep their own legal status. Repository LICENSE: CC0 1.0 waiver for the project-created Interslavic translation, editorial work, metadata, tools and evidence.",
    "earlier_editions": [
+    "https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-10-26",
     "https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-10-24-r2",
     "https://doi.org/10.5281/zenodo.20412587",
     "https://doi.org/10.5281/zenodo.21926382",
@@ -1040,10 +1085,8 @@
    "limitations": [
     "Papers 23, 24, 30, 31, 32, 34, 37 and 41–43 (and parts of 35 and 40) follow an earlier English translation whose formulas differ from the German text in places.",
     "Paper 43 is a shortened text, about a third of the full paper; Papers 41 and 42 are shortened to about four fifths.",
-    "Paper 2: in two places the text reads ĵ where the German text reads ϑ̂.",
-    "Papers 1 and 2 may lack some multiplication dots of the German text.",
     "Paper 2: three footnotes of the German text (the note on Σ₃ and the citations of Gordan–Kerschensteiner, pp. 92 and 134) are marked only by an asterisk or attached to a neighbouring sentence.",
-    "Paper 15, display (7): the substitution is written ξ14 = ξ13 only; the German display also substitutes ξ24 = ξ23, while the German text before it names only ξ14 = ξ13.",
+    "Formulas: compared with the German source text, which follows Noether's printed pages, and brought into line with it where the comparison could be made automatically. Some formulas still follow the earlier German transcription, for example in the extent of a hat or subscript, in letter forms such as ϱ and ϰ, or in a multiplication dot; where the two differ, the German source text has the printed reading.",
     "The PDFs have no bookmarks (outline)."
    ],
    "edition_date": "2026-10-26",
@@ -1051,7 +1094,7 @@
     "translation": "OpenAI Codex (model not recorded)",
     "corrections_and_typesetting": "OpenAI Codex (GPT-6 Astra, Ultra), 23–24 October 2026; Claude Opus 5.5 (Anthropic), 26 October 2026"
    },
-   "rights_summary": "Repository LICENSE: CC0 1.0 for project-created material; README: rights with their holders; distributed on a presumption of no objection; no new licence"
+   "rights_summary": "Emmy Noether's writings in the public domain; CC0 1.0 for the AI-produced translation, corrections and typesetting; the lectures written up by M. Deuring, H. Kapferer's work and the coauthors' contributions keep their own status"
   },
   {
    "id": "noether-isv-cyrl",
@@ -1066,8 +1109,8 @@
    "status_label": "Complete",
    "repository": "https://github.com/KokunoYumeto/emmy-noether-isv",
    "edition_home": "https://github.com/KokunoYumeto/emmy-noether-isv",
-   "release": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-10-26",
-   "release_tag": "noether-isv-2026-10-26",
+   "release": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-10-26-r2",
+   "release_tag": "noether-isv-2026-10-26-r2",
    "coverage": {
     "papers": "1-43",
     "lectures_1929_30": true,
@@ -1079,18 +1122,18 @@
    "readers": [
     {
      "name": "01-noether-isv-Cyrl-base.pdf",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26/01-noether-isv-Cyrl-base.pdf",
-     "bytes": 3272962,
-     "sha256": "e74d22dc9d22dd1f17efadb4fa1183750466391f6e8fafac9bd64c1834e60f17",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26-r2/01-noether-isv-Cyrl-base.pdf",
+     "bytes": 3295979,
+     "sha256": "8cc15104f5f1a69d0e26740d213c1029784d50a1c69daa4cb5931cfa9d91521b",
      "layer": "base text",
      "format": "PDF",
      "pages": 502
     },
     {
      "name": "04-noether-isv-Cyrl-emendations.pdf",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26/04-noether-isv-Cyrl-emendations.pdf",
-     "bytes": 3295942,
-     "sha256": "ab752c6ed6c00b0ee2aaa10d1a5188f4414b5f3687f346e2cda1445e994ef728",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26-r2/04-noether-isv-Cyrl-emendations.pdf",
+     "bytes": 3318295,
+     "sha256": "aec31fbf78ca5188efc84b73f3bb112fb05759b8c3385949124cad8a03f883a8",
      "layer": "text with emendations",
      "format": "PDF",
      "pages": 507
@@ -1099,33 +1142,33 @@
    "sources": [
     {
      "name": "02-noether-isv-Cyrl-base.tex",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26/02-noether-isv-Cyrl-base.tex",
-     "bytes": 2928241,
-     "sha256": "a33877979521f0d90d7f60f0218aa15739968029ef423672a045a20ab36d1cf1",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26-r2/02-noether-isv-Cyrl-base.tex",
+     "bytes": 2941250,
+     "sha256": "1ec2f0651bec103cc7f66cfd3a2ff4f2dce0991734d65e95dff540d4a1652348",
      "layer": "base text",
      "format": "TEX"
     },
     {
      "name": "05-noether-isv-Cyrl-emendations.tex",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26/05-noether-isv-Cyrl-emendations.tex",
-     "bytes": 2937015,
-     "sha256": "20b90c0efc896d7716557f469986c762cd2d8cad9b8ef33f26935b6d5c620c83",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26-r2/05-noether-isv-Cyrl-emendations.tex",
+     "bytes": 2950206,
+     "sha256": "00ce18338ca71c6ef148e64569ddf9eaa8dda079227f496d14c44a03f4cb1074",
      "layer": "text with emendations",
      "format": "TEX"
     },
     {
      "name": "03-noether-isv-Cyrl-base-sources.zip",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26/03-noether-isv-Cyrl-base-sources.zip",
-     "bytes": 1268753,
-     "sha256": "55ef7560bac9bc9d03e1cc758ee3d3d465311a8e2de0afb50c152780bcf8df19",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26-r2/03-noether-isv-Cyrl-base-sources.zip",
+     "bytes": 1274288,
+     "sha256": "7e6f4cf9a75cde2a1a5a3f5f526cf88918696b52a2db9824e96e06d2ba7cf74b",
      "layer": "base text",
      "format": "ZIP"
     },
     {
      "name": "06-noether-isv-Cyrl-emendations-sources.zip",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26/06-noether-isv-Cyrl-emendations-sources.zip",
-     "bytes": 1273682,
-     "sha256": "bf86add0ead00cc1bda02c1d1179f544e646fc7b4e2567b7e441b29755014f83",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26-r2/06-noether-isv-Cyrl-emendations-sources.zip",
+     "bytes": 1278866,
+     "sha256": "a11839c82fdad360e465f6e58084a973a2f4d6282e86381e026060bb53acb535",
      "layer": "text with emendations",
      "format": "ZIP"
     }
@@ -1133,14 +1176,15 @@
    "programs": [],
    "checksums": {
     "name": "07-noether-isv-Cyrl-SHA256SUMS.txt",
-    "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26/07-noether-isv-Cyrl-SHA256SUMS.txt",
+    "url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-26-r2/07-noether-isv-Cyrl-SHA256SUMS.txt",
     "bytes": 613,
-    "sha256": "b37d956ddb726f4fcfad475a78637faa2b7cae6d023ba04597cae723457903d8"
+    "sha256": "6be305a95f7dc3f59cf3fc045abb925995c44f6ff0374bf8edc3ea8ae37229b5"
    },
    "translation_basis": "Cyrillic-script form of the Interslavic text.",
    "authorship": "AI-translated. Translation: OpenAI Codex (model not recorded). Cyrillic-script form of the Interslavic text. Corrections and typesetting: OpenAI Codex (GPT-6 Astra, Ultra), 23–24 October 2026; Claude Opus 5.5 (Anthropic), 26 October 2026.",
-   "rights": "As for the Latin-script Interslavic edition (same repository).",
+   "rights": "README and release notes: Emmy Noether's writings are in the public domain; to the extent the publisher holds any rights in the AI-produced translation, corrections and typesetting, they are dedicated to the public domain under CC0 1.0; the lectures written up by M. Deuring, the work of H. Kapferer and the contributions of the named coauthors keep their own legal status. As for the Latin-script Interslavic edition (same repository).",
    "earlier_editions": [
+    "https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-10-26",
     "https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-10-24-r2",
     "https://doi.org/10.5281/zenodo.20412587",
     "https://doi.org/10.5281/zenodo.21926382",
@@ -1156,7 +1200,7 @@
     "corrections_and_typesetting": "OpenAI Codex (GPT-6 Astra, Ultra), 23–24 October 2026; Claude Opus 5.5 (Anthropic), 26 October 2026",
     "other": "Cyrillic-script form of the Interslavic text"
    },
-   "rights_summary": "Repository LICENSE: CC0 1.0 for project-created material; README: rights with their holders; distributed on a presumption of no objection; no new licence"
+   "rights_summary": "Emmy Noether's writings in the public domain; CC0 1.0 for the AI-produced translation, corrections and typesetting; the lectures written up by M. Deuring, H. Kapferer's work and the coauthors' contributions keep their own status"
   },
   {
    "id": "noether-ja",
@@ -1171,8 +1215,8 @@
    "status_label": "Complete",
    "repository": "https://github.com/KokunoYumeto/emmy-noether-ja",
    "edition_home": "https://github.com/KokunoYumeto/emmy-noether-ja",
-   "release": "https://github.com/KokunoYumeto/emmy-noether-ja/releases/tag/noether-ja-2026-10-26",
-   "release_tag": "noether-ja-2026-10-26",
+   "release": "https://github.com/KokunoYumeto/emmy-noether-ja/releases/tag/noether-ja-2026-10-26-r2",
+   "release_tag": "noether-ja-2026-10-26-r2",
    "coverage": {
     "papers": "1-43",
     "lectures_1929_30": true,
@@ -1184,18 +1228,18 @@
    "readers": [
     {
      "name": "01-noether-ja-base.pdf",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-ja/releases/download/noether-ja-2026-10-26/01-noether-ja-base.pdf",
-     "bytes": 2959158,
-     "sha256": "2514c17b4267ce71bf77602b3488d103bffc5553e62f842d60d1d46f0de7b71c",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-ja/releases/download/noether-ja-2026-10-26-r2/01-noether-ja-base.pdf",
+     "bytes": 2967326,
+     "sha256": "9e87db157e7f1461c3d2bc12abfba16ec2373c2529403b3ff0f4a5b4cc345032",
      "layer": "base text",
      "format": "PDF",
      "pages": 422
     },
     {
      "name": "04-noether-ja-emendations.pdf",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-ja/releases/download/noether-ja-2026-10-26/04-noether-ja-emendations.pdf",
-     "bytes": 2971216,
-     "sha256": "2b1e050cbb8a5b03995e5ff822892e4bbd9c1c545e6b835bf04bdf26d29919e7",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-ja/releases/download/noether-ja-2026-10-26-r2/04-noether-ja-emendations.pdf",
+     "bytes": 2979263,
+     "sha256": "23889f4b70ad29dc8e7788cec9de90b9f28fdc19bcdcd1314a05a88d18ad0cff",
      "layer": "text with emendations",
      "format": "PDF",
      "pages": 427
@@ -1204,33 +1248,33 @@
    "sources": [
     {
      "name": "02-noether-ja-base.tex",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-ja/releases/download/noether-ja-2026-10-26/02-noether-ja-base.tex",
-     "bytes": 2129668,
-     "sha256": "5e28d6f15f8e5fbde3004ae30f95ba4d62b7ed495a7280fcd578a58b35eedf2f",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-ja/releases/download/noether-ja-2026-10-26-r2/02-noether-ja-base.tex",
+     "bytes": 2146135,
+     "sha256": "83112f1a9739b92ddc27edc511f17930a4b9ce9f0ba54083080d1702b7b29986",
      "layer": "base text",
      "format": "TEX"
     },
     {
      "name": "05-noether-ja-emendations.tex",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-ja/releases/download/noether-ja-2026-10-26/05-noether-ja-emendations.tex",
-     "bytes": 2135950,
-     "sha256": "4edb4434a83b151eba321024f493126ba369457a117e6c9a1b6e17c2f2f89621",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-ja/releases/download/noether-ja-2026-10-26-r2/05-noether-ja-emendations.tex",
+     "bytes": 2152573,
+     "sha256": "c51b922ca5649f30d40610e230eacf9ebedaa2fcb894b1dbd45b568964caeda5",
      "layer": "text with emendations",
      "format": "TEX"
     },
     {
      "name": "03-noether-ja-base-sources.zip",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-ja/releases/download/noether-ja-2026-10-26/03-noether-ja-base-sources.zip",
-     "bytes": 1084919,
-     "sha256": "86f6c2a829b6a0c1a65bd5b7820da47a8415d1c56d727cfb7db2425f96760ec7",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-ja/releases/download/noether-ja-2026-10-26-r2/03-noether-ja-base-sources.zip",
+     "bytes": 1091482,
+     "sha256": "01cbe50eedb2284f8804283d157774f0abf082ae0588f6204e757dc355f6df54",
      "layer": "base text",
      "format": "ZIP"
     },
     {
      "name": "06-noether-ja-emendations-sources.zip",
-     "url": "https://github.com/KokunoYumeto/emmy-noether-ja/releases/download/noether-ja-2026-10-26/06-noether-ja-emendations-sources.zip",
-     "bytes": 1089329,
-     "sha256": "901030d7ba20627c41f22dcfa374508b1f1bb6a5a59fa28d1aabb659c15ab9db",
+     "url": "https://github.com/KokunoYumeto/emmy-noether-ja/releases/download/noether-ja-2026-10-26-r2/06-noether-ja-emendations-sources.zip",
+     "bytes": 1095544,
+     "sha256": "6cb73a33b86a03acf31f87b3bce2e63bbd23b0241908ac6c41e1af2fa4f0a93d",
      "layer": "text with emendations",
      "format": "ZIP"
     }
@@ -1238,25 +1282,24 @@
    "programs": [],
    "checksums": {
     "name": "07-noether-ja-SHA256SUMS.txt",
-    "url": "https://github.com/KokunoYumeto/emmy-noether-ja/releases/download/noether-ja-2026-10-26/07-noether-ja-SHA256SUMS.txt",
+    "url": "https://github.com/KokunoYumeto/emmy-noether-ja/releases/download/noether-ja-2026-10-26-r2/07-noether-ja-SHA256SUMS.txt",
     "bytes": 577,
-    "sha256": "f0c07c5d639f22c66911d315f250e00094c51cb8e224565d1edbf6909784d8a5"
+    "sha256": "736724d68f1c1a98fa1e721b90cdfa37fc38318478b087557b2889256e2a31ad"
    },
    "translation_basis": "The README names Japanese 2026-08-13 r10 (doi:10.5281/zenodo.21921485) and German ED0014/v051 (doi:10.5281/zenodo.21908301).",
    "authorship": "AI-translated. Translation: OpenAI Codex (model not recorded). Corrections and typesetting: OpenAI Codex (GPT-6 Astra, Ultra), 23–24 October 2026; Claude Opus 5.5 (Anthropic), 26 October 2026.",
-   "rights": "README and LICENSE (a rights statement): rights remain with their holders; free non-commercial, educational distribution rests on the publisher's presumption of no objection; no new licence or public-domain dedication. Earlier rights notices: NOTICE_HISTORIQUE.md.",
+   "rights": "README and release notes: Emmy Noether's writings are in the public domain; to the extent the publisher holds any rights in the AI-produced translation, corrections and typesetting, they are dedicated to the public domain under CC0 1.0; the lectures written up by M. Deuring, the work of H. Kapferer and the contributions of the named coauthors keep their own legal status. Earlier rights notices are kept in NOTICE_HISTORIQUE.md.",
    "earlier_editions": [
+    "https://github.com/KokunoYumeto/emmy-noether-ja/releases/tag/noether-ja-2026-10-26",
     "https://github.com/KokunoYumeto/emmy-noether-ja/releases/tag/noether-ja-2026-10-24-r2",
     "https://doi.org/10.5281/zenodo.21921485",
     "https://doi.org/10.5281/zenodo.21908301"
    ],
    "limitations": [
     "Papers 32, 34 and 40 (and parts of 30, 35, 41 and 42) follow an earlier English translation whose formulas differ from the German text in places; Papers 40 and 41 are shortened to about three quarters.",
-    "Paper 2: in two places the text reads ĵ where the German text reads ϑ̂.",
-    "Papers 1 and 2 may lack some multiplication dots of the German text.",
     "Paper 2: the footnote on Σ₃ is attached to a neighbouring sentence; its place in the display carries only the mark *).",
     "Papers 10, 13 and 38: some readings may differ from the German text.",
-    "Paper 15, display (7): the substitution is written ξ14 = ξ13 only; the German display also substitutes ξ24 = ξ23, while the German text before it names only ξ14 = ξ13.",
+    "Formulas: compared with the German source text, which follows Noether's printed pages, and brought into line with it where the comparison could be made automatically. Some formulas still follow the earlier German transcription, for example in the extent of a hat or subscript, in letter forms such as ϱ and ϰ, or in a multiplication dot; where the two differ, the German source text has the printed reading.",
     "The PDFs have no bookmarks (outline)."
    ],
    "edition_date": "2026-10-26",
@@ -1264,7 +1307,7 @@
     "translation": "OpenAI Codex (model not recorded)",
     "corrections_and_typesetting": "OpenAI Codex (GPT-6 Astra, Ultra), 23–24 October 2026; Claude Opus 5.5 (Anthropic), 26 October 2026"
    },
-   "rights_summary": "Rights with their holders; distributed on a presumption of no objection; no new licence; earlier notices in NOTICE_HISTORIQUE.md"
+   "rights_summary": "Emmy Noether's writings in the public domain; CC0 1.0 for the AI-produced translation, corrections and typesetting; the lectures written up by M. Deuring, H. Kapferer's work and the coauthors' contributions keep their own status"
   },
   {
    "id": "noether-ar",
