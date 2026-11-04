@@ -11,7 +11,7 @@
    "M. Deuring (write-up of the 1929/30 lectures)",
    "H. Kapferer (author of work 45; supplement jointly with E. Noether)"
   ],
-  "german_source": "https://zenodo.org/records/22342039",
+  "german_source": "https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/noether-de-2026-10-26",
   "text_layers": {
    "base text": "keeps the readings of the original printings; editorial notes discuss the readings in question",
    "text with emendations": "applies the editorial corrections; each is explained in an editorial note"
@@ -116,9 +116,7 @@
     "bytes": 559,
     "sha256": "d4848b2823f2c92ae8a2df01d46624c3a6c182a692e2e40ea5bfcba64c64e674"
    },
-   "earlier_editions": [
-    "https://zenodo.org/records/22342039"
-   ]
+   "earlier_editions": []
   },
   {
    "id": "noether-en",
@@ -204,7 +202,7 @@
     "bytes": 577,
     "sha256": "4b180444dd79e5a65b4655cc8ef1c4b7a9ed31e9527219a0c7875f51f8054e99"
    },
-   "translation_basis": "The README names German edition NOETH-DE-ED-0021 (doi:10.5281/zenodo.22182296) as the source of the inherited English text.",
+   "translation_basis": "The README names German edition NOETH-DE-ED-0021 as the source of the inherited English text.",
    "authorship": "AI-translated. Translation: OpenAI Codex (model not recorded). Corrections and typesetting: OpenAI Codex (GPT-6 Astra, Ultra), 23–24 October 2026; Claude Opus 5.5 (Anthropic), 26–27 October 2026.",
    "rights": "README and release notes: Emmy Noether's writings are in the public domain; to the extent the publisher holds any rights in the AI-produced translation, corrections and typesetting, they are dedicated to the public domain under CC0 1.0; the lectures written up by M. Deuring, the work of H. Kapferer and the contributions of the named coauthors keep their own legal status. Repository LICENSE: CC0 1.0 for the project-created translation, typesetting, metadata, tools and evidence.",
    "earlier_editions": [
@@ -214,12 +212,7 @@
     "https://github.com/KokunoYumeto/emmy-noether-en/releases/tag/noether-en-2026-10-26-r3",
     "https://github.com/KokunoYumeto/emmy-noether-en/releases/tag/noether-en-2026-10-26-r2",
     "https://github.com/KokunoYumeto/emmy-noether-en/releases/tag/noether-en-2026-10-26",
-    "https://github.com/KokunoYumeto/emmy-noether-en/releases/tag/noether-en-2026-10-24-r2",
-    "https://doi.org/10.5281/zenodo.20412587",
-    "https://doi.org/10.5281/zenodo.21923145",
-    "https://doi.org/10.5281/zenodo.21923146",
-    "https://doi.org/10.5281/zenodo.22182296",
-    "https://doi.org/10.5281/zenodo.22232932"
+    "https://github.com/KokunoYumeto/emmy-noether-en/releases/tag/noether-en-2026-10-24-r2"
    ],
    "limitations": [
     "Formulas: compared with the German source text, which follows Noether's printed pages, and brought into line with it: automatically where the comparison could be made, and by hand for the remaining formulas, including the layout of displays and tables and the letters that name the author's quantities. Some formulas still follow the earlier German transcription, mainly in passages that a translation renders in its own way; where the two differ, the German source text has the printed reading."
@@ -315,7 +308,7 @@
     "bytes": 589,
     "sha256": "e1a8de2ba222cdad01506f1694d17d682e32b522a394181e73f0d969f7c3b99a"
    },
-   "translation_basis": "Source editions named in the README: French ED0014/v051 (doi:10.5281/zenodo.21921884) and German ED0014/v051 (doi:10.5281/zenodo.21908301).",
+   "translation_basis": "Source editions named in the README: French ED0014/v051 (release ed0014-v051-r1) and German ED0014/v051.",
    "authorship": "AI-translated. Translation: OpenAI Codex (model not recorded). Corrections and typesetting: OpenAI Codex (GPT-6 Astra, Ultra), October 2026; Claude Opus 5.5 (Anthropic), 26–27 October 2026.",
    "rights": "README and release notes: Emmy Noether's writings are in the public domain; to the extent the publisher holds any rights in the AI-produced translation, corrections and typesetting, they are dedicated to the public domain under CC0 1.0; the lectures written up by M. Deuring, the work of H. Kapferer and the contributions of the named coauthors keep their own legal status. NOTICE_HISTORIQUE.md reproduces the source edition's historical notice: CC0 1.0 for the project's own contributions.",
    "earlier_editions": [
@@ -326,8 +319,6 @@
     "https://github.com/KokunoYumeto/emmy-noether-fr/releases/tag/noether-fr-2026-10-26-r2",
     "https://github.com/KokunoYumeto/emmy-noether-fr/releases/tag/noether-fr-2026-10-26",
     "https://github.com/KokunoYumeto/emmy-noether-fr/releases/tag/noether-fr-2026-10-24",
-    "https://doi.org/10.5281/zenodo.21921884",
-    "https://doi.org/10.5281/zenodo.21908301",
     "https://github.com/KokunoYumeto/emmy-noether-fr/releases/tag/ed0014-v051-r1"
    ],
    "limitations": [
@@ -425,7 +416,7 @@
     "bytes": 571,
     "sha256": "7ebfe1921afbeb7146e93082ed51827f65d090d1c9e3e9b522417f0307fef3c3"
    },
-   "translation_basis": "The README names Korean v1.0.0 (2026-08-13, doi:10.5281/zenodo.21921524) as the base; its German base was ED0011/v047.",
+   "translation_basis": "The README names Korean v1.0.0 (2026-08-13, release v1.0.0) as the base; its German base was ED0011/v047.",
    "authorship": "AI-translated. Translation: OpenAI Codex (model not recorded). Corrections and typesetting: OpenAI Codex (GPT-6 Astra, Ultra), October 2026; Claude Opus 5.5 (Anthropic), 26–27 October 2026.",
    "rights": "README and release notes: Emmy Noether's writings are in the public domain; to the extent the publisher holds any rights in the AI-produced translation, corrections and typesetting, they are dedicated to the public domain under CC0 1.0; the lectures written up by M. Deuring, the work of H. Kapferer and the contributions of the named coauthors keep their own legal status. Earlier rights notices are kept in NOTICE_HISTORIQUE.md.",
    "earlier_editions": [
@@ -436,9 +427,6 @@
     "https://github.com/KokunoYumeto/emmy-noether-ko/releases/tag/noether-ko-2026-10-26-r2",
     "https://github.com/KokunoYumeto/emmy-noether-ko/releases/tag/noether-ko-2026-10-26",
     "https://github.com/KokunoYumeto/emmy-noether-ko/releases/tag/noether-ko-2026-10-24",
-    "https://doi.org/10.5281/zenodo.21921524",
-    "https://doi.org/10.5281/zenodo.21921523",
-    "https://doi.org/10.5281/zenodo.20412587",
     "https://github.com/KokunoYumeto/emmy-noether-ko/releases/tag/v1.0.0"
    ],
    "limitations": [
@@ -544,7 +532,7 @@
     "bytes": 723,
     "sha256": "72e00b9d467e7ee6c9cbfa03dc88b194b35a128269e755aa6474c84faeb2f031"
    },
-   "translation_basis": "The README names Simplified Chinese v1.0.0 (2026-08-14, doi:10.5281/zenodo.21933035) as the base; its German base was ED0011/v047.",
+   "translation_basis": "The README names Simplified Chinese v1.0.0 (2026-08-14, release v1.0.0) as the base; its German base was ED0011/v047.",
    "authorship": "AI-translated. Translation: OpenAI Codex (model not recorded). Compilation and script-conversion program: OpenAI Codex (GPT-5.6 Sol, Ultra), 12 August 2026. Corrections and typesetting: OpenAI Codex (GPT-6 Astra, Ultra), 23–24 October 2026; Claude Opus 5.5 (Anthropic), 26–27 October 2026.",
    "rights": "README and release notes: Emmy Noether's writings are in the public domain; to the extent the publisher holds any rights in the AI-produced translation, corrections and typesetting, they are dedicated to the public domain under CC0 1.0; the lectures written up by M. Deuring, the work of H. Kapferer and the contributions of the named coauthors keep their own legal status. The bundled Noto fonts are under the SIL Open Font License 1.1.",
    "earlier_editions": [
@@ -554,13 +542,7 @@
     "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/noether-zh-Hans-2026-10-26-r3",
     "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/noether-zh-Hans-2026-10-26-r2",
     "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/noether-zh-Hans-2026-10-26",
-    "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/noether-zh-Hans-2026-10-24-r2",
-    "https://doi.org/10.5281/zenodo.21933035",
-    "https://doi.org/10.5281/zenodo.21933034",
-    "https://doi.org/10.5281/zenodo.20836874",
-    "https://doi.org/10.5281/zenodo.22172487",
-    "https://doi.org/10.5281/zenodo.22177336",
-    "https://doi.org/10.5281/zenodo.20412587"
+    "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/noether-zh-Hans-2026-10-24-r2"
    ],
    "limitations": [
     "Papers 24, 31, 32 and 34 (and parts of 35 and 40) follow an earlier English translation whose formulas differ from the German text in places.",
@@ -894,11 +876,7 @@
     "https://github.com/KokunoYumeto/emmy-noether-ru/releases/tag/noether-ru-2026-10-26-r3",
     "https://github.com/KokunoYumeto/emmy-noether-ru/releases/tag/noether-ru-2026-10-26-r2",
     "https://github.com/KokunoYumeto/emmy-noether-ru/releases/tag/noether-ru-2026-10-26",
-    "https://github.com/KokunoYumeto/emmy-noether-ru/releases/tag/noether-ru-2026-10-24-r2",
-    "https://doi.org/10.5281/zenodo.20412587",
-    "https://doi.org/10.5281/zenodo.21926366",
-    "https://doi.org/10.5281/zenodo.21940320",
-    "https://doi.org/10.5281/zenodo.22052699"
+    "https://github.com/KokunoYumeto/emmy-noether-ru/releases/tag/noether-ru-2026-10-24-r2"
    ],
    "limitations": [
     "Papers 23, 24, 30, 31, 32, 34, 37 and 41–43 (and parts of 35 and 40) follow an earlier English translation whose formulas differ from the German text in places.",
@@ -1008,11 +986,7 @@
     "https://github.com/KokunoYumeto/emmy-noether-uk/releases/tag/noether-uk-2026-10-26-r3",
     "https://github.com/KokunoYumeto/emmy-noether-uk/releases/tag/noether-uk-2026-10-26-r2",
     "https://github.com/KokunoYumeto/emmy-noether-uk/releases/tag/noether-uk-2026-10-26",
-    "https://github.com/KokunoYumeto/emmy-noether-uk/releases/tag/noether-uk-2026-10-24-r2",
-    "https://doi.org/10.5281/zenodo.20412587",
-    "https://doi.org/10.5281/zenodo.21926373",
-    "https://doi.org/10.5281/zenodo.21940320",
-    "https://doi.org/10.5281/zenodo.22053778"
+    "https://github.com/KokunoYumeto/emmy-noether-uk/releases/tag/noether-uk-2026-10-24-r2"
    ],
    "limitations": [
     "Papers 23, 24, 30, 31, 32, 34, 37 and 41–43 (and parts of 35 and 40) follow an earlier English translation whose formulas differ from the German text in places.",
@@ -1122,10 +1096,7 @@
     "https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-10-26-r3",
     "https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-10-26-r2",
     "https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-10-26",
-    "https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-10-24-r2",
-    "https://doi.org/10.5281/zenodo.20412587",
-    "https://doi.org/10.5281/zenodo.21926382",
-    "https://doi.org/10.5281/zenodo.22077468"
+    "https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-10-24-r2"
    ],
    "limitations": [
     "Papers 23, 24, 30, 31, 32, 34, 37 and 41–43 (and parts of 35 and 40) follow an earlier English translation whose formulas differ from the German text in places.",
@@ -1235,10 +1206,7 @@
     "https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-10-26-r3",
     "https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-10-26-r2",
     "https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-10-26",
-    "https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-10-24-r2",
-    "https://doi.org/10.5281/zenodo.20412587",
-    "https://doi.org/10.5281/zenodo.21926382",
-    "https://doi.org/10.5281/zenodo.22077468"
+    "https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-10-24-r2"
    ],
    "limitations": [
     "Same text as the Latin-script edition, so the same differences apply.",
@@ -1336,7 +1304,7 @@
     "bytes": 577,
     "sha256": "8e535b43be2bf7b53b237cb5366372aefa79dd4357ffe156caf4323b49b85429"
    },
-   "translation_basis": "The README names Japanese 2026-08-13 r10 (doi:10.5281/zenodo.21921485) and German ED0014/v051 (doi:10.5281/zenodo.21908301).",
+   "translation_basis": "The README names Japanese 2026-08-13 r10 (release ja-r10-20260813) and German ED0014/v051.",
    "authorship": "AI-translated. Translation: OpenAI Codex (model not recorded). Corrections and typesetting: OpenAI Codex (GPT-6 Astra, Ultra), 23–24 October 2026; Claude Opus 5.5 (Anthropic), 26–27 October 2026.",
    "rights": "README and release notes: Emmy Noether's writings are in the public domain; to the extent the publisher holds any rights in the AI-produced translation, corrections and typesetting, they are dedicated to the public domain under CC0 1.0; the lectures written up by M. Deuring, the work of H. Kapferer and the contributions of the named coauthors keep their own legal status. Earlier rights notices are kept in NOTICE_HISTORIQUE.md.",
    "earlier_editions": [
@@ -1346,9 +1314,7 @@
     "https://github.com/KokunoYumeto/emmy-noether-ja/releases/tag/noether-ja-2026-10-26-r3",
     "https://github.com/KokunoYumeto/emmy-noether-ja/releases/tag/noether-ja-2026-10-26-r2",
     "https://github.com/KokunoYumeto/emmy-noether-ja/releases/tag/noether-ja-2026-10-26",
-    "https://github.com/KokunoYumeto/emmy-noether-ja/releases/tag/noether-ja-2026-10-24-r2",
-    "https://doi.org/10.5281/zenodo.21921485",
-    "https://doi.org/10.5281/zenodo.21908301"
+    "https://github.com/KokunoYumeto/emmy-noether-ja/releases/tag/noether-ja-2026-10-24-r2"
    ],
    "limitations": [
     "Papers 32, 34 and 40 (and parts of 30, 35, 41 and 42) follow an earlier English translation whose formulas differ from the German text in places; Papers 40 and 41 are shortened to about three quarters.",
